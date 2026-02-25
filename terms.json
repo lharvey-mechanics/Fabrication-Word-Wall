@@ -1,432 +1,2650 @@
 [
   {
+    "term": "Standard operating procedure (SOP)",
+    "definition": "A step-by-step method for completing a task safely and consistently.",
+    "example": "Students followed the SOP for grinder setup, use, and shutdown before starting work.",
+    "tags": ["Safety", "Shop Practices", "Documentation", "FAB1010", "FAB1100", "FAB1110", "FAB1160"]
+  },
+  {
     "term": "Hazard identification",
-    "definition": "Finding anything in the shop that could cause harm (equipment, process, material, environment, behaviour).",
-    "example": "Before welding, the group identified trip hazards, hot surfaces, and pinch points around the work area.",
-    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1910"]
+    "definition": "Recognizing anything that could cause harm in the shop (equipment, process, material, environment, or behaviour).",
+    "example": "Students identified pinch points at a vise, hot surfaces, and trip hazards in walkways.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1160"]
   },
   {
     "term": "Risk assessment",
-    "definition": "Judging how likely a hazard is to cause harm and how severe the harm could be.",
-    "example": "Grinding without a face shield was rated high risk due to likely eye/face injury.",
+    "definition": "Estimating how likely harm is to occur and how severe the harm could be.",
+    "example": "Grinding without a face shield was assessed as high risk due to likely eye/face injury.",
     "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100"]
   },
   {
     "term": "Hierarchy of controls",
-    "definition": "A safety approach that prioritizes eliminating hazards first, then engineering controls, administrative controls, and PPE last.",
-    "example": "Instead of relying only on PPE, the class used welding screens and ventilation to reduce exposure.",
-    "tags": ["Safety", "FAB1010", "FAB1100"]
+    "definition": "A safety strategy that prioritizes eliminating hazards, then engineering controls, administrative controls, and PPE last.",
+    "example": "Students used guards and ventilation (engineering controls) rather than relying only on PPE.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1160"]
   },
   {
     "term": "Personal protective equipment (PPE)",
     "definition": "Protective gear worn to reduce exposure to hazards.",
     "example": "Students wore safety glasses, hearing protection, and gloves when cutting and grinding.",
-    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100"]
-  },
-  {
-    "term": "WHMIS",
-    "definition": "Canada’s hazard communication system for workplace chemicals (labels, pictograms, SDS, training).",
-    "example": "Students checked the SDS for aerosol cleaner before using it on parts.",
-    "tags": ["Safety", "Chemicals", "FAB1010", "FAB1100"]
-  },
-  {
-    "term": "Safety Data Sheet (SDS)",
-    "definition": "A document that explains a product’s hazards, safe handling, storage, PPE, and first aid.",
-    "example": "The SDS indicated the cleaner required ventilation and nitrile gloves.",
-    "tags": ["Safety", "Chemicals", "FAB1010", "FAB1100"]
-  },
-  {
-    "term": "Lockout/Tagout (LOTO)",
-    "definition": "A procedure to isolate energy sources so equipment cannot start during service or adjustment.",
-    "example": "Before changing a cutting wheel on a powered saw, the tool was unplugged and checked for zero energy.",
-    "tags": ["Safety", "Power Tools", "FAB1100", "FAB1910", "FAB2910"]
-  },
-  {
-    "term": "Hot work",
-    "definition": "Work that produces heat, sparks, or flames (welding, cutting, grinding).",
-    "example": "A hot-work check included clearing flammables and confirming a fire extinguisher was present.",
-    "tags": ["Safety", "Welding", "Cutting", "FAB1100", "FAB1110", "FAB1120", "FAB1130"]
-  },
-  {
-    "term": "Fire watch",
-    "definition": "Monitoring an area during and after hot work to catch smouldering fires early.",
-    "example": "After grinding, the group stayed 30 minutes to ensure no sparks ignited debris under the table.",
-    "tags": ["Safety", "Welding", "Cutting", "FAB1100", "FAB1910"]
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1110"]
   },
   {
     "term": "Ventilation",
-    "definition": "Moving and removing contaminated air to reduce fume and dust exposure.",
-    "example": "Local extraction was used while welding to reduce fume in the breathing zone.",
-    "tags": ["Safety", "Shop Systems", "FAB1010", "FAB1100", "FAB1130"]
+    "definition": "Moving/removing air to reduce exposure to fumes, dust, and vapours.",
+    "example": "Students positioned fume extraction near grinding to reduce airborne particulate.",
+    "tags": ["Safety", "Shop Systems", "FAB1010", "FAB1100", "FAB1160"]
   },
-
+  {
+    "term": "Housekeeping",
+    "definition": "Maintaining a clean, organized, hazard-free work area.",
+    "example": "After cutting, students cleared offcuts, swept dust, and returned tools to storage.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1160"]
+  },
+  {
+    "term": "Tool inspection",
+    "definition": "Checking tools for damage, correct setup, and safe operation before use.",
+    "example": "Students confirmed the grinder guard was secure and the disc was rated for the tool speed.",
+    "tags": ["Safety", "Tools", "FAB1010", "FAB1100", "FAB1160"]
+  },
+  {
+    "term": "Workholding",
+    "definition": "Securing material so it can be worked on safely and accurately.",
+    "example": "Tubing was clamped square to the table before marking and cutting.",
+    "tags": ["Tools", "Fabrication", "FAB1010", "FAB1100", "FAB1110"]
+  },
+  {
+    "term": "Clamp",
+    "definition": "A device that holds material together or to a surface during layout, cutting, or assembly.",
+    "example": "Two clamps prevented tubing from shifting during a mitre cut.",
+    "tags": ["Tools", "Fabrication", "FAB1010", "FAB1100", "FAB1110"]
+  },
+  {
+    "term": "Square",
+    "definition": "A tool used to set or verify 90-degree angles during layout and assembly.",
+    "example": "Students checked corners with a square before final assembly.",
+    "tags": ["Measurement", "Tools", "FAB1010", "FAB1100", "FAB1110"]
+  },
+  {
+    "term": "Deburring",
+    "definition": "Removing sharp edges and burrs after cutting or drilling to improve safety and fit.",
+    "example": "Students deburred holes so bolts seated correctly and parts were safe to handle.",
+    "tags": ["Quality", "Finishing", "FAB1010", "FAB1100", "FAB1110"]
+  },
+  {
+    "term": "Consumables",
+    "definition": "Items used up during fabrication work (discs, blades, marking tools, wire, gas).",
+    "example": "Cut-off wheels and flap discs were tracked as consumables for the project.",
+    "tags": ["Tools", "Shop Systems", "Production", "FAB1010", "FAB1160"]
+  },
+  {
+    "term": "Preventive maintenance",
+    "definition": "Planned upkeep that reduces breakdowns and keeps tools operating safely.",
+    "example": "Students cleaned tools, checked cords, and stored equipment properly to prevent damage.",
+    "tags": ["Tools", "Shop Systems", "Production", "FAB1010", "FAB1160"]
+  },
   {
     "term": "Ferrous metal",
     "definition": "Metal that contains iron (often magnetic), such as steel.",
-    "example": "Mild steel plate was identified as ferrous because it attracted a magnet.",
-    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB2010"]
+    "example": "Students identified mild steel as ferrous using a magnet test.",
+    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB1110"]
   },
   {
     "term": "Non-ferrous metal",
     "definition": "Metal with little or no iron, such as aluminum or copper.",
-    "example": "Aluminum did not attract a magnet and required different welding settings than steel.",
-    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB2030"]
+    "example": "Students separated non-ferrous scrap into the correct bin for sorting and recycling.",
+    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB1160"]
   },
   {
     "term": "Alloy",
-    "definition": "A mixture of metals (or metal and non-metal) designed to improve properties.",
-    "example": "Stainless steel is an alloy designed for corrosion resistance.",
-    "tags": ["Materials", "Metals", "FAB1100", "FAB3010"]
+    "definition": "A mixture of metals (or metal with other elements) designed to improve properties.",
+    "example": "Students discussed why stainless steel (an alloy) resists corrosion better than mild steel.",
+    "tags": ["Materials", "Metals", "FAB1010", "FAB1100"]
   },
   {
-    "term": "Mild steel",
-    "definition": "Low-carbon steel that is easy to form and weld.",
-    "example": "Students used 3/16-inch mild steel for practice joints because it is forgiving for beginners.",
-    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB1110", "FAB1120"]
+    "term": "Material properties",
+    "definition": "Characteristics that affect performance (strength, hardness, ductility, toughness, corrosion resistance).",
+    "example": "Mild steel was selected for beginner fabrication because it is more ductile and forgiving.",
+    "tags": ["Materials", "Design", "FAB1010", "FAB1100", "FAB1110"]
   },
   {
-    "term": "Heat-affected zone (HAZ)",
-    "definition": "The area of base metal changed by welding heat but not melted.",
-    "example": "Overheating widened the HAZ and increased distortion on thin material.",
-    "tags": ["Welding", "Materials", "FAB1120", "FAB2120", "FAB3010"]
+    "term": "Surface contamination",
+    "definition": "Oil, paint, rust, or debris on material that reduces accuracy and quality.",
+    "example": "Students cleaned rust and oil before layout so marks were accurate and visible.",
+    "tags": ["Materials", "Quality", "Shop Practices", "FAB1010", "FAB1100", "FAB1110"]
   },
   {
-    "term": "Distortion",
-    "definition": "Unwanted bending or warping caused by uneven heating and cooling.",
-    "example": "Stitch welding and alternating sides helped reduce distortion on a frame.",
-    "tags": ["Welding", "Fabrication", "FAB1120", "FAB2120", "FAB2130"]
-  },
-
-  {
-    "term": "Measuring tape",
-    "definition": "A flexible measuring tool used for layout and cutting dimensions.",
-    "example": "The cut list required verifying length twice before cutting stock.",
-    "tags": ["Measurement", "Hand Tools", "FAB1010", "FAB1100"]
-  },
-  {
-    "term": "Steel rule",
-    "definition": "A rigid, accurate measuring tool used for short measurements and layout lines.",
-    "example": "A steel rule was used to set the offset for a scribe line along an edge.",
-    "tags": ["Measurement", "Hand Tools", "FAB1010", "FAB1100"]
-  },
-  {
-    "term": "Calipers",
-    "definition": "A measuring tool used to measure inside, outside, and depth dimensions.",
-    "example": "Calipers confirmed a drilled hole size before fitting a bolt.",
-    "tags": ["Measurement", "Quality", "FAB1100", "FAB2100", "FAB3010"]
-  },
-  {
-    "term": "Tolerance",
-    "definition": "The allowable variation from a target dimension.",
-    "example": "A hole specified at 10.00 mm ±0.10 mm must measure between 9.90 mm and 10.10 mm.",
-    "tags": ["Measurement", "Quality", "Print Reading", "FAB1100", "FAB2100", "FAB3010"]
-  },
-  {
-    "term": "Datum",
-    "definition": "A reference surface, edge, or point used to measure or locate features.",
-    "example": "All hole locations were measured from the same datum edge to avoid compounding error.",
-    "tags": ["Measurement", "Print Reading", "FAB1100", "FAB2100"]
+    "term": "Measurement",
+    "definition": "Determining size or distance using tools and a reference point.",
+    "example": "Students measured stock, verified twice, then marked cut lines using a reference edge.",
+    "tags": ["Measurement", "Shop Practices", "FAB1010", "FAB1100", "FAB1110"]
   },
   {
     "term": "Layout",
     "definition": "Marking material to guide cutting, drilling, bending, or assembly.",
-    "example": "Students used a combination square and scribe to lay out a 25 mm offset line.",
-    "tags": ["Measurement", "Fabrication", "FAB1010", "FAB1100"]
+    "example": "Students laid out hole locations and centre-punched before drilling.",
+    "tags": ["Measurement", "Fabrication", "FAB1010", "FAB1100", "FAB1110"]
   },
   {
-    "term": "Scribe",
-    "definition": "A sharp tool used to scratch fine layout lines on metal.",
-    "example": "A scribe line stayed visible after cutting fluid was applied.",
-    "tags": ["Measurement", "Hand Tools", "FAB1010", "FAB1100"]
+    "term": "Reference edge",
+    "definition": "A chosen edge used as the starting point for measurements to reduce accumulated error.",
+    "example": "All hole offsets were measured from one reference edge so parts matched reliably.",
+    "tags": ["Measurement", "Quality", "FAB1010", "FAB1100"]
   },
   {
-    "term": "Centre punch",
-    "definition": "A tool used to make a small indentation to guide drilling.",
-    "example": "A centre punch prevented the drill bit from wandering on a round surface.",
-    "tags": ["Hand Tools", "Machining", "FAB1010", "FAB1100"]
-  },
-
-  {
-    "term": "Blueprint",
-    "definition": "A technical drawing that communicates design intent, dimensions, and specifications.",
-    "example": "Students used the drawing to create a cut list and a bill of materials.",
-    "tags": ["Print Reading", "Documentation", "FAB1100", "FAB2100", "FAB2140"]
+    "term": "Tolerance",
+    "definition": "The allowable variation from a target dimension.",
+    "example": "Tubing was cut within tolerance so the frame assembled square without forcing parts.",
+    "tags": ["Measurement", "Quality", "FAB1100", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Orthographic projection",
-    "definition": "A drawing method showing multiple views (front/top/side) to represent a 3D object.",
-    "example": "The top view clarified hole spacing that was not obvious in the front view.",
-    "tags": ["Print Reading", "FAB1100", "FAB2100"]
+    "term": "Accuracy",
+    "definition": "How close a measurement is to the true value.",
+    "example": "Students improved accuracy by using a square and marking with a scribe rather than a marker.",
+    "tags": ["Measurement", "Quality", "FAB1010", "FAB1100"]
   },
   {
-    "term": "Isometric drawing",
-    "definition": "A 3D-looking drawing style that shows length, width, and height in one view.",
-    "example": "An isometric helped the group visualise assembly order.",
-    "tags": ["Print Reading", "Design", "FAB1100", "FAB2100", "FAB3140"]
-  },
-  {
-    "term": "Bill of materials (BOM)",
-    "definition": "A list of required materials, quantities, and specifications needed to build a project.",
-    "example": "The BOM listed plate thickness, tubing size, and fasteners before purchasing.",
-    "tags": ["Documentation", "Planning", "FAB1100", "FAB2100", "FAB2140"]
+    "term": "Precision",
+    "definition": "How consistent repeated measurements are.",
+    "example": "Students produced multiple matching parts by repeating the same layout process precisely.",
+    "tags": ["Measurement", "Quality", "Production", "FAB1010", "FAB1100", "FAB1160"]
   },
   {
     "term": "Cut list",
-    "definition": "A list of stock pieces to cut, including dimensions and quantities.",
-    "example": "The cut list reduced waste because cuts were planned around stock lengths.",
-    "tags": ["Planning", "Fabrication", "FAB1100", "FAB2100"]
+    "definition": "A list of parts to cut, including dimensions, quantities, and material type.",
+    "example": "Students created a cut list for all tubing pieces before starting any cuts.",
+    "tags": ["Planning", "Documentation", "Fabrication", "FAB1100", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Revision control",
-    "definition": "Tracking changes to a drawing or plan so everyone uses the correct version.",
-    "example": "The group checked the revision letter before starting the final weld-up.",
-    "tags": ["Documentation", "Quality", "FAB2100", "FAB3140"]
-  },
-
-  {
-    "term": "Joint design",
-    "definition": "How two pieces are arranged to be welded or fastened (lap, butt, tee, corner).",
-    "example": "A tee joint was selected for the bracket because it carried load in shear and bending.",
-    "tags": ["Welding", "Design", "FAB1100", "FAB1120", "FAB2120"]
+    "term": "Bill of materials (BOM)",
+    "definition": "A list of required materials and quantities needed to complete a project.",
+    "example": "The BOM included plate thickness, tubing sizes, consumables, and fasteners.",
+    "tags": ["Planning", "Documentation", "Production", "FAB1100", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Fit-up",
-    "definition": "How parts are aligned and held together before welding.",
-    "example": "Tight fit-up reduced gaps and made it easier to control the weld puddle.",
-    "tags": ["Welding", "Fabrication", "FAB1120", "FAB2120", "FAB2130"]
+    "term": "Job plan",
+    "definition": "A planned sequence of tasks, tools, safety steps, and checks for a build.",
+    "example": "Students planned: measure, cut, deburr, fit-up, check square, assemble, inspect, finish.",
+    "tags": ["Planning", "Shop Practices", "Production", "FAB1100", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Tack weld",
-    "definition": "A small weld used to hold parts in position before final welding.",
-    "example": "Four tack welds were placed to prevent shifting during full passes.",
-    "tags": ["Welding", "FAB1120", "FAB2120"]
+    "term": "Production system",
+    "definition": "An organized method for managing people, tools, materials, and steps to produce consistent results.",
+    "example": "The class used stations (layout, cutting, finishing) so multiple groups could work efficiently.",
+    "tags": ["Production", "Shop Systems", "FAB1160"]
   },
   {
-    "term": "Weld bead",
-    "definition": "The line of deposited weld metal created by a welding pass.",
-    "example": "A consistent bead width showed steady travel speed and torch angle.",
-    "tags": ["Welding", "FAB1120", "FAB2120"]
+    "term": "Batch production",
+    "definition": "Making multiple identical parts in groups to improve efficiency and consistency.",
+    "example": "Students cut and deburred all identical pieces as a batch before assembly.",
+    "tags": ["Production", "Planning", "FAB1160", "FAB1110"]
   },
   {
-    "term": "Penetration",
-    "definition": "How deeply the weld fuses into the base metal.",
-    "example": "Low penetration can fail under load even if the bead looks smooth.",
-    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
+    "term": "Bottleneck",
+    "definition": "A step that limits workflow because it has the least capacity or takes the most time.",
+    "example": "Deburring became the bottleneck until the class added a second finishing station.",
+    "tags": ["Production", "Shop Systems", "FAB1160"]
   },
   {
-    "term": "Fusion",
-    "definition": "Proper melting and joining of the weld metal to the base metal.",
-    "example": "Cold lap is poor fusion caused by low heat or incorrect technique.",
-    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
+    "term": "Quality control (QC)",
+    "definition": "Checking work against requirements to confirm it meets standards and to find defects.",
+    "example": "QC checks included length, squareness, and safe edges before assembly.",
+    "tags": ["Quality", "Production", "FAB1100", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Fillet weld",
-    "definition": "A triangular-shaped weld used in tee, lap, and corner joints.",
-    "example": "The drawing called for a 6 mm fillet weld along the inside corner.",
-    "tags": ["Welding", "Print Reading", "FAB1120", "FAB2120"]
+    "term": "Quality assurance (QA)",
+    "definition": "Preventing defects by building checks and standards into the process from the start.",
+    "example": "QA included measuring after each cut so errors were caught early, not at final assembly.",
+    "tags": ["Quality", "Production", "Documentation", "FAB1100", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Welding symbol",
-    "definition": "A standardized symbol on a drawing indicating weld type, size, location, and finish.",
-    "example": "The symbol specified a fillet weld on the arrow side with a specific leg size.",
-    "tags": ["Welding", "Print Reading", "FAB1100", "FAB1120", "FAB2120"]
+    "term": "Tubular stock",
+    "definition": "Hollow material supplied as tube used for frames and structures.",
+    "example": "Students used square tubing to build a frame and checked corners for squareness.",
+    "tags": ["Materials", "Fabrication", "FAB1010", "FAB1110"]
   },
   {
-    "term": "GMAW (MIG)",
-    "definition": "Gas Metal Arc Welding: a wire-feed welding process using shielding gas.",
-    "example": "Students used 0.030-inch wire and 75/25 shielding gas for mild steel practice.",
-    "tags": ["Welding", "Processes", "FAB1120", "FAB2120", "FAB2130"]
+    "term": "Bar stock",
+    "definition": "Solid metal supplied as bars (round, square, flat) used for brackets and parts.",
+    "example": "Students cut flat bar stock into brackets according to the cut list.",
+    "tags": ["Materials", "Fabrication", "FAB1010", "FAB1110"]
   },
   {
-    "term": "FCAW",
-    "definition": "Flux-Cored Arc Welding: wire-feed welding using flux core, sometimes with shielding gas.",
-    "example": "FCAW was used for outdoor work where wind can disrupt shielding gas coverage.",
-    "tags": ["Welding", "Processes", "FAB1120", "FAB2120", "FAB2130"]
+    "term": "Wall thickness",
+    "definition": "The thickness of the tube wall, affecting strength, weight, and cutting approach.",
+    "example": "Students selected wall thickness that balanced strength with ease of cutting and fit-up.",
+    "tags": ["Materials", "Design", "Measurement", "FAB1110", "FAB1100"]
   },
   {
-    "term": "Shielding gas",
-    "definition": "Gas that protects the weld puddle from oxygen and nitrogen in the air.",
-    "example": "75/25 argon/CO₂ improved arc stability and reduced spatter on mild steel.",
-    "tags": ["Welding", "Processes", "FAB1120", "FAB2120"]
-  },
-  {
-    "term": "Spatter",
-    "definition": "Small droplets of molten metal that scatter during welding.",
-    "example": "Correct voltage and stickout reduced spatter and cleanup time.",
-    "tags": ["Welding", "Quality", "FAB1120", "FAB2120"]
-  },
-  {
-    "term": "Porosity",
-    "definition": "Small holes in a weld caused by trapped gas or contamination.",
-    "example": "Porosity increased when the base metal had oil, rust, or paint.",
-    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
-  },
-  {
-    "term": "Undercut",
-    "definition": "A groove melted into the base metal along the weld toe that is not filled with weld metal.",
-    "example": "Too much heat or travel speed caused undercut on the top edge of the fillet weld.",
-    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
-  },
-
-  {
-    "term": "Cutting",
-    "definition": "Separating material to size using hand tools or powered tools.",
-    "example": "Stock was rough-cut before final trimming and deburring.",
-    "tags": ["Fabrication", "Cutting", "FAB1010", "FAB1100"]
+    "term": "Mitre cut",
+    "definition": "An angled cut used so tubing joins cleanly at corners or intersections.",
+    "example": "Students cut 45-degree mitres so frame corners met tightly with minimal gaps.",
+    "tags": ["Cutting", "Fabrication", "FAB1110", "FAB1100"]
   },
   {
     "term": "Kerf",
     "definition": "The width of material removed by a cutting process.",
-    "example": "The cut list accounted for kerf so the final length was accurate.",
-    "tags": ["Cutting", "Measurement", "FAB1100", "FAB2100"]
+    "example": "Students accounted for kerf so final lengths matched the cut list.",
+    "tags": ["Cutting", "Measurement", "Quality", "FAB1100", "FAB1110"]
   },
   {
-    "term": "Deburring",
-    "definition": "Removing sharp edges and burrs after cutting, drilling, or machining.",
-    "example": "A deburring tool was used so parts were safe to handle and fit correctly.",
-    "tags": ["Quality", "Hand Tools", "FAB1010", "FAB1100"]
+    "term": "Fit-up",
+    "definition": "How parts are positioned and held so they match the intended layout before joining or final assembly.",
+    "example": "Students improved fit-up by deburring, clamping, and checking corners with a square.",
+    "tags": ["Fabrication", "Quality", "FAB1100", "FAB1110"]
   },
   {
-    "term": "Abrasive wheel",
-    "definition": "A rotating disc used to grind, cut, or clean metal.",
-    "example": "The correct wheel type was selected for steel to avoid wheel failure.",
-    "tags": ["Cutting", "Grinding", "Power Tools", "FAB1100", "FAB1910"]
+    "term": "Squareness",
+    "definition": "How close an angle is to 90 degrees, often checked on frames and assemblies.",
+    "example": "Students measured diagonals to confirm the rectangular frame was square.",
+    "tags": ["Fabrication", "Measurement", "Quality", "FAB1100", "FAB1110"]
   },
   {
-    "term": "Angle grinder",
-    "definition": "A handheld power tool that uses discs for grinding, cutting, and finishing.",
-    "example": "The grinder was used to bevel edges for better weld penetration.",
-    "tags": ["Power Tools", "Grinding", "FAB1100", "FAB1910"]
+    "term": "Jig",
+    "definition": "A guide that helps position a tool or part to repeat an operation accurately.",
+    "example": "A drilling jig ensured every bracket had matching hole spacing.",
+    "tags": ["Tools", "Production", "Quality", "FAB1100", "FAB1160"]
   },
   {
-    "term": "Bevel",
-    "definition": "An angled edge preparation often used before welding thicker material.",
-    "example": "A bevel was ground on 3/16-inch plate to improve root fusion.",
-    "tags": ["Welding", "Fabrication", "FAB1100", "FAB1120", "FAB2120"]
-  },
-
-  {
-    "term": "Forces",
-    "definition": "Pushes or pulls that act on objects and structures.",
-    "example": "A bracket experiences both tension and bending under load.",
-    "tags": ["Structures", "Physics", "FAB2010", "FAB3010"]
+    "term": "Fixture",
+    "definition": "A device or setup that holds parts in a repeatable position for consistent work.",
+    "example": "A corner fixture helped groups assemble multiple frames more efficiently.",
+    "tags": ["Tools", "Production", "Quality", "FAB1110", "FAB1160"]
   },
   {
-    "term": "Tension",
-    "definition": "A force that stretches a material.",
-    "example": "A lifting strap is mainly loaded in tension.",
-    "tags": ["Structures", "FAB2010", "FAB3010"]
+    "term": "Blueprint",
+    "definition": "A technical drawing that communicates design intent, dimensions, and specifications.",
+    "example": "Students used the drawing to create a BOM and verify dimensions before cutting.",
+    "tags": ["Print Reading", "Documentation", "FAB1100", "FAB1160"]
   },
   {
-    "term": "Compression",
-    "definition": "A force that squeezes a material.",
-    "example": "A column in a frame carries compression from the load above.",
-    "tags": ["Structures", "FAB2010", "FAB3010"]
+    "term": "Orthographic view",
+    "definition": "A drawing view that shows an object from one direction (front, top, side).",
+    "example": "Students used the top view to confirm spacing not obvious in the front view.",
+    "tags": ["Print Reading", "Documentation", "FAB1100"]
   },
   {
-    "term": "Shear",
-    "definition": "A force that causes parts of a material to slide past each other.",
-    "example": "Bolts in a lap joint often carry shear forces.",
-    "tags": ["Structures", "Fasteners", "FAB2010", "FAB3010"]
-  },
-  {
-    "term": "Bending moment",
-    "definition": "A turning effect that causes a member to bend.",
-    "example": "A longer lever arm increases bending moment on the mount.",
-    "tags": ["Structures", "FAB2010", "FAB3010"]
-  },
-  {
-    "term": "Factor of safety",
-    "definition": "A design margin that makes a structure stronger than the expected maximum load.",
-    "example": "The project used a factor of safety to account for unknowns and wear over time.",
-    "tags": ["Design", "Structures", "FAB2010", "FAB2140", "FAB3140"]
-  },
-
-  {
-    "term": "Fastener",
-    "definition": "A mechanical device used to join parts (bolts, screws, rivets).",
-    "example": "Fasteners were chosen where the assembly may need to be disassembled later.",
-    "tags": ["Fasteners", "Fabrication", "FAB1100", "FAB2050", "FAB3050"]
-  },
-  {
-    "term": "Torque",
-    "definition": "A twisting force used to tighten fasteners to a specification.",
-    "example": "Bolts were tightened in stages to the specified torque to prevent distortion.",
-    "tags": ["Fasteners", "Quality", "FAB2050", "FAB3050"]
-  },
-  {
-    "term": "Thread pitch",
-    "definition": "The distance between threads on a fastener (or threads per inch in imperial).",
-    "example": "The nut would not start because the thread pitch did not match the bolt.",
-    "tags": ["Fasteners", "Measurement", "FAB2050", "FAB3050"]
-  },
-
-  {
-    "term": "Destructive testing",
-    "definition": "Testing that damages or breaks a sample to evaluate performance.",
-    "example": "A bend test was used on a weld coupon to check for cracking and lack of fusion.",
-    "tags": ["Testing", "Quality", "FAB3010", "FAB3020"]
-  },
-  {
-    "term": "Non-destructive testing (NDT)",
-    "definition": "Testing that evaluates a part without damaging it.",
-    "example": "A visual inspection and dye penetrant check were used to find surface cracks.",
-    "tags": ["Testing", "Quality", "FAB3010", "FAB3020"]
-  },
-  {
-    "term": "Visual inspection",
-    "definition": "Checking a part or weld with the eyes (often with gauges) for defects and standards.",
-    "example": "The weld was inspected for undercut, porosity, and consistent bead shape.",
-    "tags": ["Testing", "Quality", "FAB1100", "FAB3010", "FAB3020"]
-  },
-  {
-    "term": "Acceptance criteria",
-    "definition": "The set of requirements a part must meet to be considered acceptable.",
-    "example": "The rubric specified allowable porosity and minimum weld size as acceptance criteria.",
-    "tags": ["Quality", "Documentation", "FAB2100", "FAB3010", "FAB3140"]
-  },
-
-  {
-    "term": "Project planning",
-    "definition": "Organizing tasks, materials, time, and safety steps before starting work.",
-    "example": "Students planned the build sequence: cut, prep, tack, weld, clean, inspect, finish.",
-    "tags": ["Planning", "Employability", "FAB1010", "FAB1100", "FAB2100", "FAB3140"]
-  },
-  {
-    "term": "Work sequence",
-    "definition": "The order of steps used to complete a job safely and efficiently.",
-    "example": "The work sequence placed drilling before welding to keep parts easy to clamp.",
-    "tags": ["Planning", "Shop Practices", "FAB1100", "FAB2100"]
-  },
-  {
-    "term": "Quality assurance (QA)",
-    "definition": "Preventing defects by using standards, checks, and good process control.",
-    "example": "QA included measuring after each step so errors were caught early.",
-    "tags": ["Quality", "Employability", "FAB2100", "FAB3010", "FAB3140"]
-  },
-  {
-    "term": "Quality control (QC)",
-    "definition": "Finding defects by inspecting and testing finished work against requirements.",
-    "example": "QC included checking dimensions and inspecting welds before final sign-off.",
-    "tags": ["Quality", "Employability", "FAB2100", "FAB3010", "FAB3140"]
-  },
-
-  {
-    "term": "Professional conduct",
-    "definition": "Meeting workplace expectations: safety, punctuality, respect, and accountability.",
-    "example": "A student reported a near miss, cleaned the station, and logged the issue appropriately.",
-    "tags": ["Employability", "Safety", "FAB1010", "FAB1910", "FAB2910", "FAB3910"]
+    "term": "Isometric view",
+    "definition": "A drawing that shows a 3D-like view to help visualize shape and assembly.",
+    "example": "Students used the isometric view to understand how the bracket aligned on the frame.",
+    "tags": ["Print Reading", "Documentation", "FAB1100"]
   },
   {
     "term": "Tool accountability",
-    "definition": "Tracking tools so they are returned, maintained, and ready for the next user.",
-    "example": "Students checked tools in/out and reported damaged items immediately.",
-    "tags": ["Employability", "Shop Practices", "FAB1010", "FAB1910", "FAB2910"]
+    "definition": "Tracking, storing, and returning tools so they are available and safe for the next user.",
+    "example": "Students signed out specialty tools and returned them clean, inspected, and stored correctly.",
+    "tags": ["Employability", "Shop Practices", "Production", "FAB1010", "FAB1160"]
   },
   {
-    "term": "Housekeeping",
-    "definition": "Keeping a clean, organized, and hazard-free workspace.",
-    "example": "Grinding dust was cleaned up to reduce slip and fire hazards.",
-    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1910"]
+    "term": "Professional conduct",
+    "definition": "Meeting workplace expectations: safety, punctuality, respect, and accountability.",
+    "example": "Students reported a hazard, paused work, and documented the issue before continuing.",
+    "tags": ["Employability", "Shop Practices", "FAB1010", "FAB1100", "FAB1160"]
+  }
+  {
+    "term": "Title block",
+    "definition": "The information panel on a drawing that identifies the part, drawing number, revision, scale, units, and other key details.",
+    "example": "Before measuring anything, students checked the title block for scale and units to avoid building the wrong size.",
+    "tags": ["Print Reading", "Documentation", "FAB2020"]
+  },
+  {
+    "term": "Scale",
+    "definition": "The ratio between drawing size and real size (full-size, reduced, or enlarged).",
+    "example": "A detail was shown at a larger scale so small features could be read clearly.",
+    "tags": ["Print Reading", "Measurement", "FAB2020"]
+  },
+  {
+    "term": "Units",
+    "definition": "The measurement system used on a drawing (metric or imperial).",
+    "example": "Students confirmed the drawing was in millimetres before cutting stock.",
+    "tags": ["Print Reading", "Measurement", "FAB2020"]
+  },
+  {
+    "term": "General notes",
+    "definition": "Written instructions on a drawing that apply to the whole part or project (materials, tolerances, finishes, processes).",
+    "example": "General notes specified deburring all edges, so students planned finishing time into the job.",
+    "tags": ["Print Reading", "Documentation", "FAB2020"]
+  },
+  {
+    "term": "Revision",
+    "definition": "A tracked version of a drawing that records updates and changes from earlier versions.",
+    "example": "Students verified the current revision letter matched the latest print before starting fabrication.",
+    "tags": ["Print Reading", "Documentation", "Quality", "FAB2020"]
+  },
+  {
+    "term": "Line types",
+    "definition": "Standard drawing lines that communicate different information (visible, hidden, centre, dimension, section).",
+    "example": "Hidden lines showed internal features that were not visible from the outside view.",
+    "tags": ["Print Reading", "FAB2020"]
+  },
+  {
+    "term": "Centreline",
+    "definition": "A line that marks the centre of a circle, hole, cylinder, or symmetrical feature.",
+    "example": "The hole pattern was located using centrelines to ensure symmetry.",
+    "tags": ["Print Reading", "Measurement", "FAB2020"]
+  },
+  {
+    "term": "Dimensioning",
+    "definition": "The system of numbers, lines, and symbols that defines sizes and locations on a drawing.",
+    "example": "Students used dimensioning to create a cut list and locate hole positions accurately.",
+    "tags": ["Print Reading", "Measurement", "FAB2020"]
+  },
+  {
+    "term": "Baseline dimensioning",
+    "definition": "Dimensions taken from a single starting reference so errors do not stack across multiple measurements.",
+    "example": "Hole locations were dimensioned from one baseline to prevent cumulative layout error.",
+    "tags": ["Print Reading", "Measurement", "Quality", "FAB2020"]
+  },
+  {
+    "term": "Chain dimensioning",
+    "definition": "A series of dimensions placed end-to-end where each dimension begins where the last one ends.",
+    "example": "Students noted chain dimensioning can stack small errors, so they measured carefully and rechecked.",
+    "tags": ["Print Reading", "Measurement", "Quality", "FAB2020"]
+  },
+  {
+    "term": "Section view",
+    "definition": "A drawing view showing a cut-through of an object to reveal interior details clearly.",
+    "example": "A section view showed the internal step that needed to be machined, which was hidden in other views.",
+    "tags": ["Print Reading", "FAB2020"]
+  },
+  {
+    "term": "Detail view",
+    "definition": "A magnified view of a small area to show features and dimensions more clearly.",
+    "example": "Students used a detail view to read the exact radius and edge-break callout.",
+    "tags": ["Print Reading", "FAB2020"]
+  },
+  {
+    "term": "Auxiliary view",
+    "definition": "A view projected to show the true shape/size of features on an angled surface.",
+    "example": "An auxiliary view clarified the true length of a bevel on an angled face.",
+    "tags": ["Print Reading", "FAB2020"]
+  },
+  {
+    "term": "Material callout",
+    "definition": "A note or specification on a drawing that states what material to use.",
+    "example": "The material callout required mild steel, so students avoided mixing in unknown scrap.",
+    "tags": ["Print Reading", "Materials", "Documentation", "FAB2020"]
+  },
+  {
+    "term": "Finish callout",
+    "definition": "A note or symbol specifying surface finish or edge treatment requirements.",
+    "example": "The print required deburring and a smooth finish on all hand-contact edges.",
+    "tags": ["Print Reading", "Quality", "FAB2020"]
+  },
+  {
+    "term": "Hole callout",
+    "definition": "A standardized note that defines a hole’s size and any special features (countersink, counterbore, depth).",
+    "example": "A hole callout specified diameter and depth, so the drilling operation included a depth stop.",
+    "tags": ["Print Reading", "Machining", "FAB2020"]
+  },
+  {
+    "term": "Fastener callout",
+    "definition": "A note identifying fastener type, size, thread, and length needed for assembly.",
+    "example": "Students selected the correct bolt by reading the fastener callout rather than guessing.",
+    "tags": ["Print Reading", "Fasteners", "FAB2020"]
+  },
+  {
+    "term": "Part identification",
+    "definition": "A system for labelling parts and assemblies so they match the print and do not get mixed up.",
+    "example": "Students labelled each cut part with a part ID that matched the cut list and drawing.",
+    "tags": ["Print Reading", "Documentation", "Production", "FAB2020", "FAB2010"]
+  },
+
+  {
+    "term": "Load",
+    "definition": "A force applied to a structure or component.",
+    "example": "Students estimated the load on a bracket based on what it needed to hold in use.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Dead load",
+    "definition": "A constant load from the weight of the structure and permanently attached components.",
+    "example": "The dead load included the weight of the frame itself and mounted hardware.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Live load",
+    "definition": "A changing load from people, moving items, or temporary forces.",
+    "example": "The live load increased when a person leaned on the railing or equipment shifted.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Point load",
+    "definition": "A force concentrated at one location.",
+    "example": "A single hanging hook created a point load on the crossmember.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Distributed load",
+    "definition": "A force spread over a length or area.",
+    "example": "Tools placed along a shelf created a distributed load across the supports.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Stress",
+    "definition": "Internal force per unit area within a material caused by an external load.",
+    "example": "Students discussed how smaller cross-sections create higher stress under the same load.",
+    "tags": ["Structures", "Materials", "FAB2010"]
+  },
+  {
+    "term": "Strain",
+    "definition": "How much a material deforms compared to its original length when loaded.",
+    "example": "Students compared strain by observing deflection differences between two member sizes.",
+    "tags": ["Structures", "Materials", "FAB2010"]
+  },
+  {
+    "term": "Elastic deformation",
+    "definition": "Deformation that returns to original shape after the load is removed.",
+    "example": "A beam that springs back after unloading experienced elastic deformation.",
+    "tags": ["Structures", "Materials", "FAB2010"]
+  },
+  {
+    "term": "Plastic deformation",
+    "definition": "Permanent deformation that remains after the load is removed.",
+    "example": "A bent bracket that does not return to shape shows plastic deformation.",
+    "tags": ["Structures", "Materials", "FAB2010"]
+  },
+  {
+    "term": "Deflection",
+    "definition": "The amount a structural member bends or moves under load.",
+    "example": "Students measured deflection at mid-span to compare two beam designs.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Failure mode",
+    "definition": "The way a part or structure stops working (bending, buckling, fracture, shear, fastener failure).",
+    "example": "Students identified buckling as a likely failure mode for a long, slender compression member.",
+    "tags": ["Structures", "Design", "FAB2010"]
+  },
+  {
+    "term": "Buckling",
+    "definition": "Sudden sideways bending of a compression member when it becomes unstable.",
+    "example": "A tall, thin member buckled under compression even though the material itself did not crush.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Shear plane",
+    "definition": "The cross-section area where sliding failure can occur under shear forces (often in fasteners).",
+    "example": "Students checked whether a bolt was loaded in single-shear or double-shear at the joint.",
+    "tags": ["Structures", "Fasteners", "FAB2010"]
+  },
+  {
+    "term": "Joint",
+    "definition": "A connection between members where forces are transferred (welded, bolted, riveted).",
+    "example": "Students compared joint options based on load direction and future serviceability needs.",
+    "tags": ["Structures", "Design", "FAB2010"]
+  },
+  {
+    "term": "Gusset plate",
+    "definition": "A reinforcing plate used to strengthen a joint or connection area.",
+    "example": "A gusset plate was added to reduce flex at a corner where two tubes met.",
+    "tags": ["Structures", "Fabrication", "FAB2010"]
+  },
+  {
+    "term": "Moment arm",
+    "definition": "The distance between a force and the point it rotates around; a longer arm increases bending effect.",
+    "example": "Moving the load farther from the support increased the moment arm and the bending demand.",
+    "tags": ["Structures", "FAB2010"]
+  },
+  {
+    "term": "Design constraint",
+    "definition": "A limitation that affects design choices (material, weight, size, cost, tools, time, safety).",
+    "example": "A size constraint meant the bracket needed a different shape to maintain strength.",
+    "tags": ["Design", "FAB2010"]
+  },
+  {
+    "term": "Load path",
+    "definition": "The route forces take through a structure from where they are applied to where they are supported.",
+    "example": "Students traced the load path to see which members carried the highest demand.",
+    "tags": ["Structures", "Design", "FAB2010"]
+  }
+  {
+    "term": "Oxyfuel",
+    "definition": "A process that uses oxygen and a fuel gas to produce a flame for heating, brazing, soldering, or cutting.",
+    "example": "Students used oxyfuel to preheat steel before bending and to perform oxyfuel cutting on plate.",
+    "tags": ["Thermal Processes", "Oxyfuel", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Fuel gas",
+    "definition": "A combustible gas used with oxygen to create a high-temperature flame (commonly acetylene, but other fuels exist).",
+    "example": "Students confirmed the correct fuel gas for the torch setup before lighting.",
+    "tags": ["Thermal Processes", "Oxyfuel", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Oxygen cylinder",
+    "definition": "A high-pressure cylinder that supplies oxygen for oxyfuel operations.",
+    "example": "Students secured the oxygen cylinder upright and checked that the valve area was clean before use.",
+    "tags": ["Thermal Processes", "Gas Systems", "Safety", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Acetylene cylinder",
+    "definition": "A cylinder designed to safely store acetylene dissolved in a porous filler; handled differently from oxygen cylinders.",
+    "example": "Students kept the acetylene cylinder upright and ensured it was properly secured on the cart.",
+    "tags": ["Thermal Processes", "Gas Systems", "Safety", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Cylinder securing",
+    "definition": "Using chains/straps and a proper cart to prevent cylinders from tipping or being damaged.",
+    "example": "Students used two-point securing to prevent cylinders from shifting during movement.",
+    "tags": ["Safety", "Gas Systems", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Cylinder valve",
+    "definition": "The main on/off control at the top of a cylinder that releases gas to the regulator.",
+    "example": "Students opened the oxygen valve slowly to protect the regulator and gauges.",
+    "tags": ["Gas Systems", "Safety", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Regulator",
+    "definition": "A device that reduces cylinder pressure to a controllable working pressure.",
+    "example": "Students adjusted the regulator to the correct working pressure for the selected tip size.",
+    "tags": ["Gas Systems", "Thermal Processes", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "High-pressure gauge",
+    "definition": "The regulator gauge that shows the cylinder (supply) pressure.",
+    "example": "Students checked the high-pressure gauge to confirm the cylinder had enough gas for the task.",
+    "tags": ["Gas Systems", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Working-pressure gauge",
+    "definition": "The regulator gauge that shows the pressure being delivered to the hose and torch.",
+    "example": "Students verified working pressure before lighting to keep the flame stable.",
+    "tags": ["Gas Systems", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Hose set",
+    "definition": "Flexible hoses that carry oxygen and fuel gas from regulators to the torch (typically colour-coded).",
+    "example": "Students inspected hoses for cracks and ensured connections were tight before use.",
+    "tags": ["Gas Systems", "Safety", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Flashback arrestor",
+    "definition": "A safety device that prevents a flame from travelling back through the torch and hoses.",
+    "example": "Students confirmed flashback arrestors were installed before operating the torch.",
+    "tags": ["Safety", "Gas Systems", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Check valve",
+    "definition": "A one-way valve that prevents reverse gas flow, reducing the risk of mixing gases in hoses.",
+    "example": "Students verified check valves were oriented correctly during setup.",
+    "tags": ["Safety", "Gas Systems", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Leak test",
+    "definition": "Checking connections and equipment for leaks (commonly with approved leak-detection solution) before lighting.",
+    "example": "Students applied leak solution to fittings and watched for bubbles before use.",
+    "tags": ["Safety", "Gas Systems", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Purge",
+    "definition": "Briefly flowing gas through hoses/torch to remove mixed gases and ensure correct gas is present before lighting.",
+    "example": "Students purged oxygen and fuel lines separately before igniting the torch.",
+    "tags": ["Gas Systems", "Safety", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Torch handle",
+    "definition": "The main hand-held body of the torch with valves that control oxygen and fuel flow.",
+    "example": "Students adjusted torch valves to achieve a steady flame during heating.",
+    "tags": ["Tools", "Thermal Processes", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Cutting attachment",
+    "definition": "A torch component that adds an oxygen cutting lever and is used with cutting tips for severing steel.",
+    "example": "Students installed the cutting attachment when switching from welding/brazing to cutting.",
+    "tags": ["Tools", "Thermal Cutting", "FAB1040", "FAB2040"]
+  },
+  {
+    "term": "Tip size",
+    "definition": "A designation that matches a torch tip to the material thickness and required heat input/flow.",
+    "example": "Students selected a larger tip size for thicker plate to maintain proper preheat.",
+    "tags": ["Tools", "Thermal Processes", "Thermal Cutting", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Striker",
+    "definition": "A flint ignition tool used to light an oxyfuel torch safely.",
+    "example": "Students used a striker rather than a lighter to ignite the fuel gas.",
+    "tags": ["Tools", "Safety", "Thermal Processes", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Neutral flame",
+    "definition": "A balanced oxyfuel flame (correct oxygen-to-fuel ratio) commonly used for general heating and welding applications.",
+    "example": "Students tuned to a neutral flame before practicing controlled heating on scrap.",
+    "tags": ["Oxyfuel", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Carburizing flame",
+    "definition": "A fuel-rich flame that can add carbon to steel surfaces and is used for specific heating/brazing conditions.",
+    "example": "Students identified a carburizing flame by its feather and adjusted to the required setting for the task.",
+    "tags": ["Oxyfuel", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Oxidizing flame",
+    "definition": "An oxygen-rich flame that can oxidize metal surfaces and is used only for specific applications.",
+    "example": "Students corrected an oxidizing flame when surface oxidation appeared during heating.",
+    "tags": ["Oxyfuel", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Preheat",
+    "definition": "Heating steel to ignition temperature prior to applying the cutting oxygen stream.",
+    "example": "Students preheated the cut line until it reached the correct colour/temperature before pressing the lever.",
+    "tags": ["Thermal Cutting", "FAB1040", "FAB2040"]
+  },
+  {
+    "term": "Cutting oxygen lever",
+    "definition": "A control that releases a high-pressure oxygen stream to oxidize and blow molten metal out of the kerf.",
+    "example": "After preheat, students pressed the lever to start the cut and maintain a steady travel speed.",
+    "tags": ["Thermal Cutting", "Tools", "FAB1040", "FAB2040"]
+  },
+  {
+    "term": "Oxygen jet",
+    "definition": "The high-velocity stream of oxygen that performs the cutting action by rapid oxidation and material removal.",
+    "example": "Students maintained torch height so the oxygen jet stayed centred in the kerf.",
+    "tags": ["Thermal Cutting", "FAB1040", "FAB2040"]
+  },
+  {
+    "term": "Kerf (thermal cutting)",
+    "definition": "The width of material removed by the cut, affected by tip size, oxygen flow, and travel speed.",
+    "example": "Students adjusted speed to reduce kerf width variation and improve edge quality.",
+    "tags": ["Thermal Cutting", "Quality", "FAB2040"]
+  },
+  {
+    "term": "Drag lines",
+    "definition": "Vertical lines on a cut edge that indicate cutting speed and technique; their angle can show if travel speed is off.",
+    "example": "Students reduced travel speed when drag lines became too angled and rough.",
+    "tags": ["Thermal Cutting", "Quality", "FAB2040"]
+  },
+  {
+    "term": "Pierce",
+    "definition": "Starting a cut by creating an initial hole through the material before moving along the cut line.",
+    "example": "Students used a controlled pierce at the edge to avoid excessive spatter and blowback.",
+    "tags": ["Thermal Cutting", "Technique", "FAB2040"]
+  },
+  {
+    "term": "Edge start",
+    "definition": "Starting a cut from the edge of the material rather than piercing in the middle.",
+    "example": "Students chose an edge start to reduce cleanup and improve safety on thicker plate.",
+    "tags": ["Thermal Cutting", "Technique", "FAB2040"]
+  },
+  {
+    "term": "Torch angle",
+    "definition": "The orientation of the torch relative to the workpiece, affecting cut quality and dross formation.",
+    "example": "Students kept the torch near-perpendicular for straight cuts and consistent kerf.",
+    "tags": ["Thermal Cutting", "Technique", "FAB2040"]
+  },
+  {
+    "term": "Torch standoff",
+    "definition": "The distance between the tip and the workpiece; critical for stable flame and clean cutting.",
+    "example": "Students maintained consistent standoff to prevent popping and uneven cut edges.",
+    "tags": ["Thermal Cutting", "Technique", "FAB2040"]
+  },
+  {
+    "term": "Travel speed",
+    "definition": "How fast the torch moves along the cut line, affecting kerf, drag lines, and dross.",
+    "example": "Students slowed slightly on corners to keep the cut from lagging behind the preheat zone.",
+    "tags": ["Thermal Cutting", "Technique", "Quality", "FAB2040"]
+  },
+  {
+    "term": "Dross",
+    "definition": "Re-solidified molten material that sticks to the bottom edge of a cut, often caused by speed/pressure/heat issues.",
+    "example": "Students reduced heavy dross by adjusting oxygen flow and travel speed.",
+    "tags": ["Thermal Cutting", "Quality", "FAB2040"]
+  },
+  {
+    "term": "Slag (thermal cutting)",
+    "definition": "Solidified by-product from oxidation during cutting that may adhere to the cut edge.",
+    "example": "Students chipped and brushed slag from the cut edge before fitting parts.",
+    "tags": ["Thermal Cutting", "Quality", "FAB2040"]
+  },
+  {
+    "term": "Heat-affected zone (HAZ) (thermal)",
+    "definition": "The area beside a cut where heat changes material properties without melting.",
+    "example": "Students planned extra grinding allowance where the HAZ needed cleanup before welding.",
+    "tags": ["Thermal Cutting", "Materials", "Quality", "FAB2040"]
+  },
+  {
+    "term": "Bevel cutting",
+    "definition": "Cutting an angled edge to prepare a joint or meet a design requirement.",
+    "example": "Students bevel-cut plate edges to prepare for a stronger welded joint.",
+    "tags": ["Thermal Cutting", "Fabrication", "FAB2040"]
+  },
+  {
+    "term": "Oxyfuel heating",
+    "definition": "Using an oxyfuel flame to heat metal for bending, straightening, loosening, or preheating.",
+    "example": "Students applied controlled heat to straighten a slightly warped bar after fabrication.",
+    "tags": ["Thermal Processes", "Fabrication", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Brazing",
+    "definition": "Joining metals by melting a filler metal that flows into the joint without melting the base metal.",
+    "example": "Students brazed a joint using correct heat control so the filler flowed by capillary action.",
+    "tags": ["Thermal Processes", "Joining", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Soldering",
+    "definition": "Low-temperature joining using a filler metal with a melting point below brazing, without melting base metal.",
+    "example": "Students used soldering for a thin component where high heat would cause distortion.",
+    "tags": ["Thermal Processes", "Joining", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Filler metal (brazing/soldering)",
+    "definition": "The added metal that melts and bonds parts in brazing or soldering.",
+    "example": "Students selected the appropriate filler metal for the material combination being joined.",
+    "tags": ["Materials", "Joining", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Flux",
+    "definition": "A chemical used in brazing/soldering to clean surfaces and prevent oxidation so filler can bond properly.",
+    "example": "Students applied flux to the joint area so the filler flowed smoothly and bonded cleanly.",
+    "tags": ["Materials", "Joining", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Capillary action",
+    "definition": "The movement of molten filler into a tight joint gap during brazing/soldering.",
+    "example": "With correct joint gap and heat, the filler drew into the seam by capillary action.",
+    "tags": ["Joining", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Joint clearance (brazing)",
+    "definition": "The small, controlled gap between parts that allows molten filler to flow and bond effectively.",
+    "example": "Students adjusted fit so the clearance was consistent, improving filler flow and strength.",
+    "tags": ["Joining", "Quality", "Thermal Processes", "FAB1040", "FAB2030"]
+  },
+  {
+    "term": "Backfire",
+    "definition": "A momentary pop where the flame goes out at the tip, often due to tip contact, incorrect pressures, or overheating.",
+    "example": "When a backfire occurred, students shut down safely, checked the tip, and corrected settings.",
+    "tags": ["Safety", "Gas Systems", "Thermal Processes", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Flashback",
+    "definition": "A dangerous condition where flame travels back into the torch and hoses, often accompanied by a squeal/hiss.",
+    "example": "Students responded to a flashback by closing valves in the correct order and checking equipment before reuse.",
+    "tags": ["Safety", "Gas Systems", "Thermal Processes", "FAB1040", "FAB2030", "FAB2040"]
+  },
+  {
+    "term": "Shutdown procedure (oxyfuel)",
+    "definition": "The correct order of closing valves and relieving pressures to safely end oxyfuel operation and store equipment.",
+    "example": "Students closed torch valves, shut cylinder valves, bled lines, and backed off regulator screws before storage.",
+    "tags": ["Safety", "Gas Systems", "Shop Practices", "FAB1040", "FAB2030", "FAB2040"]
+  }
+  {
+    "term": "Arc welding",
+    "definition": "A group of welding processes that use an electric arc to melt and join metals.",
+    "example": "Students set polarity and parameters before striking an arc on mild steel coupons.",
+    "tags": ["Welding", "Processes", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB3040", "FAB3070", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Electric arc",
+    "definition": "The intense electrical discharge between electrode and workpiece that produces heat for welding.",
+    "example": "A steady arc sound and consistent arc length helped maintain bead shape.",
+    "tags": ["Welding", "Fundamentals", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Welding circuit",
+    "definition": "The complete path electricity follows from the power source through the electrode, arc, workpiece, and back through the work lead.",
+    "example": "Students checked for clean work lead contact to avoid an unstable arc.",
+    "tags": ["Welding", "Equipment", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB2048", "FAB3048", "FAB2070", "FAB3170"]
+  },
+  {
+    "term": "Work lead",
+    "definition": "The cable and clamp that connects the workpiece to the welding power source (often called the ground clamp).",
+    "example": "Students moved the work lead closer to the joint to reduce resistance and improve arc stability.",
+    "tags": ["Welding", "Equipment", "Safety", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB2048", "FAB3048", "FAB2070", "FAB3170"]
+  },
+  {
+    "term": "Polarity",
+    "definition": "The direction of current flow (electrode positive or electrode negative) that affects penetration, arc characteristics, and electrode performance.",
+    "example": "Students selected the correct polarity for their wire type to reduce spatter and improve fusion.",
+    "tags": ["Welding", "Fundamentals", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2048", "FAB3048", "FAB2070", "FAB3170"]
+  },
+  {
+    "term": "Electrode",
+    "definition": "The conductive material that carries current to the arc; may be consumed (wire/rod) or non-consumable (tungsten).",
+    "example": "Students compared a consumable wire electrode in GMAW to a tungsten electrode in GTAW.",
+    "tags": ["Welding", "Fundamentals", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB2048", "FAB3048", "FAB2070", "FAB3170"]
+  },
+  {
+    "term": "Filler metal",
+    "definition": "Metal added to a joint to create the weld; it becomes part of the finished weld.",
+    "example": "Students confirmed the wire classification matched the base metal for the assignment.",
+    "tags": ["Welding", "Materials", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB2048", "FAB3048", "FAB2070", "FAB3170", "FAB3070"]
+  },
+  {
+    "term": "Base metal",
+    "definition": "The metal being joined by welding.",
+    "example": "Students cleaned mill scale from the base metal to reduce weld defects.",
+    "tags": ["Welding", "Materials", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3030", "FAB2048", "FAB3048", "FAB2070", "FAB3170", "FAB3070"]
+  },
+  {
+    "term": "Joint design",
+    "definition": "How two parts are arranged for welding (butt, lap, tee, corner, edge) and how the joint is prepared.",
+    "example": "Students chose a tee joint and added a small bevel to improve root fusion on thicker material.",
+    "tags": ["Welding", "Design", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3070"]
+  },
+  {
+    "term": "Edge preparation",
+    "definition": "Preparing joint edges (cleaning, bevels, root face, root opening) to achieve proper fusion and penetration.",
+    "example": "Students bevelled plate edges so the weld could penetrate to the root.",
+    "tags": ["Welding", "Fabrication", "Quality", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Root opening",
+    "definition": "The gap at the root of a joint that helps achieve full penetration when required.",
+    "example": "Students set a consistent root opening using spacers before tacking.",
+    "tags": ["Welding", "Fabrication", "Quality", "FAB2060", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Fit-up",
+    "definition": "How parts are aligned and held before welding so the joint matches the intended design.",
+    "example": "Students clamped and measured diagonals to keep the assembly square during tack-up.",
+    "tags": ["Welding", "Fabrication", "Quality", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Tack weld",
+    "definition": "A small weld used to hold parts in position before final welding.",
+    "example": "Students used four tack welds and rechecked alignment before completing full passes.",
+    "tags": ["Welding", "Fabrication", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3070"]
+  },
+  {
+    "term": "Weld pass",
+    "definition": "One trip along the joint depositing weld metal.",
+    "example": "Students used a root pass followed by fill and cap passes on a groove weld.",
+    "tags": ["Welding", "Technique", "FAB2060", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Weld bead",
+    "definition": "The deposited weld metal left by a welding pass.",
+    "example": "A consistent bead width showed steady travel speed and torch angle.",
+    "tags": ["Welding", "Technique", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Heat input",
+    "definition": "The amount of energy delivered to the joint, influenced by current, voltage, and travel speed.",
+    "example": "Students reduced heat input on thin material by increasing travel speed and adjusting settings.",
+    "tags": ["Welding", "Fundamentals", "Quality", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030"]
+  },
+  {
+    "term": "Travel speed",
+    "definition": "How fast the electrode moves along the joint; affects bead shape, penetration, and heat input.",
+    "example": "Students slowed slightly to improve fusion at the toe of the fillet weld.",
+    "tags": ["Welding", "Technique", "Quality", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Work angle",
+    "definition": "The side-to-side angle of the electrode relative to the joint (controls bead placement and fusion).",
+    "example": "Students adjusted work angle in a tee joint to keep the bead centred on both legs.",
+    "tags": ["Welding", "Technique", "FAB1050", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Travel angle",
+    "definition": "The forward/back tilt of the electrode in the direction of travel (push or drag).",
+    "example": "Students used a slight push angle in GMAW to improve visibility and bead profile.",
+    "tags": ["Welding", "Technique", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Stickout",
+    "definition": "The length of wire extending beyond the contact tip in wire processes; affects heat and arc stability.",
+    "example": "Students corrected excessive stickout to reduce spatter and improve penetration consistency.",
+    "tags": ["Welding", "Technique", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Arc length",
+    "definition": "The distance between the electrode tip and the workpiece; influences heat and stability.",
+    "example": "Students shortened arc length to reduce spatter and improve control on a fillet weld.",
+    "tags": ["Welding", "Technique", "SMAW", "GTAW", "FAB1050", "FAB2050", "FAB3050", "FAB3030"]
+  },
+  {
+    "term": "Penetration",
+    "definition": "How deeply the weld fuses into the base metal.",
+    "example": "Students increased penetration by adjusting parameters and ensuring clean base metal.",
+    "tags": ["Welding", "Quality", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Fusion",
+    "definition": "Proper melting and joining of weld metal to base metal and between passes.",
+    "example": "Students corrected poor fusion by increasing heat input and reducing travel speed.",
+    "tags": ["Welding", "Quality", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Heat-affected zone (HAZ)",
+    "definition": "The area of base metal whose properties change due to welding heat but does not melt.",
+    "example": "Students used alternating weld sequence to reduce distortion and manage HAZ effects.",
+    "tags": ["Welding", "Materials", "Quality", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Distortion",
+    "definition": "Unwanted warping or movement caused by uneven heating and cooling.",
+    "example": "Students used tack placement and alternating sides to control distortion on a frame.",
+    "tags": ["Welding", "Fabrication", "Quality", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3040", "FAB3070"]
+  },
+  {
+    "term": "Weld position",
+    "definition": "The orientation of the weld and workpiece (flat, horizontal, vertical, overhead).",
+    "example": "Students adjusted technique and settings when moving from flat to vertical position practice.",
+    "tags": ["Welding", "Technique", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Shielding gas",
+    "definition": "Gas used to protect the weld from atmospheric contamination in gas-shielded processes.",
+    "example": "Students verified gas flow and checked for leaks before wire welding.",
+    "tags": ["Welding", "Equipment", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Gas flow rate",
+    "definition": "The amount of shielding gas delivered, typically set on a flowmeter; affects porosity and coverage.",
+    "example": "Students increased flow slightly after noticing porosity caused by inadequate shielding.",
+    "tags": ["Welding", "Equipment", "Quality", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Flowmeter",
+    "definition": "A device that measures and sets shielding gas flow for gas-shielded welding.",
+    "example": "Students set the flowmeter to the required rate before striking an arc.",
+    "tags": ["Welding", "Equipment", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Gas coverage",
+    "definition": "The area of the weld protected by shielding gas; disrupted by wind, distance, or angle.",
+    "example": "Students reduced nozzle-to-work distance to improve gas coverage and reduce porosity.",
+    "tags": ["Welding", "Quality", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "GMAW",
+    "definition": "Gas Metal Arc Welding: a wire-feed welding process using shielding gas (often called MIG).",
+    "example": "Students used GMAW for fillet weld practice on mild steel with consistent travel speed.",
+    "tags": ["Welding", "Processes", "GMAW", "FAB2070", "FAB3170", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "FCAW",
+    "definition": "Flux Cored Arc Welding: a wire-feed process using a flux-cored wire, sometimes with shielding gas.",
+    "example": "Students used FCAW where the wire type provided slag coverage and different penetration behaviour.",
+    "tags": ["Welding", "Processes", "FCAW", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "SMAW",
+    "definition": "Shielded Metal Arc Welding: a manual arc process using a flux-coated stick electrode (often called stick welding).",
+    "example": "Students practised maintaining arc length and travel speed to keep slag from trapping in the bead.",
+    "tags": ["Welding", "Processes", "SMAW", "FAB1050", "FAB2050", "FAB3050"]
+  },
+  {
+    "term": "GTAW",
+    "definition": "Gas Tungsten Arc Welding: an arc process using a tungsten electrode and shielding gas (often called TIG).",
+    "example": "Students used GTAW to practise controlled heat input and clean beads on thin material.",
+    "tags": ["Welding", "Processes", "GTAW", "FAB3030", "FAB3040"]
+  },
+  {
+    "term": "Tungsten electrode",
+    "definition": "A non-consumable electrode used in GTAW to carry current and create the arc.",
+    "example": "Students prepared tungsten to the correct point so the arc stayed focused.",
+    "tags": ["Welding", "Materials", "GTAW", "FAB3030", "FAB3040"]
+  },
+  {
+    "term": "Contact tip",
+    "definition": "The part in a wire welding gun that transfers current to the wire electrode.",
+    "example": "Students replaced a worn contact tip when wire feeding became inconsistent.",
+    "tags": ["Welding", "Equipment", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Nozzle",
+    "definition": "The outer piece of a wire welding gun that directs shielding gas around the arc and weld pool.",
+    "example": "Students cleaned spatter from the nozzle to maintain gas coverage.",
+    "tags": ["Welding", "Equipment", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Wire feed speed",
+    "definition": "The rate the wire electrode is fed; strongly affects amperage and bead shape in wire processes.",
+    "example": "Students increased wire feed speed to raise amperage and improve penetration on thicker material.",
+    "tags": ["Welding", "Parameters", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Voltage",
+    "definition": "A parameter that affects arc length and bead profile in wire processes.",
+    "example": "Students adjusted voltage to reduce spatter and improve bead wet-in at the toes.",
+    "tags": ["Welding", "Parameters", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Amperage",
+    "definition": "The amount of current in the welding circuit; affects heat and penetration.",
+    "example": "Students selected amperage appropriate for electrode size and material thickness.",
+    "tags": ["Welding", "Parameters", "SMAW", "GTAW", "FAB1050", "FAB2050", "FAB3050", "FAB3030"]
+  },
+  {
+    "term": "Duty cycle",
+    "definition": "How long a welder can operate at a given output within a 10-minute period before overheating.",
+    "example": "Students planned weld sequence to avoid exceeding duty cycle on longer welds.",
+    "tags": ["Welding", "Equipment", "Safety", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Weld pool",
+    "definition": "The molten metal at the joint during welding that solidifies into the weld.",
+    "example": "Students watched the leading edge of the weld pool to control bead size.",
+    "tags": ["Welding", "Fundamentals", "FAB1050", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3070"]
+  },
+  {
+    "term": "Fillet weld",
+    "definition": "A weld with a roughly triangular cross-section used in tee, lap, and corner joints.",
+    "example": "Students measured fillet weld size to ensure it met the design requirement.",
+    "tags": ["Welding", "Joint Types", "FAB1050", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Groove weld",
+    "definition": "A weld made in a prepared groove between two members, often used for full penetration joints.",
+    "example": "Students completed a groove weld using root, fill, and cap passes.",
+    "tags": ["Welding", "Joint Types", "FAB2060", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Weld defect",
+    "definition": "A condition that reduces weld quality or strength, often requiring correction.",
+    "example": "Students identified the defect, determined the cause, and adjusted technique for the next attempt.",
+    "tags": ["Welding", "Quality", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030", "FAB3040", "FAB3070"]
+  },
+  {
+    "term": "Porosity",
+    "definition": "Gas pockets in the weld caused by contamination, inadequate shielding, or incorrect parameters.",
+    "example": "Students cleaned the base metal and improved gas coverage to reduce porosity.",
+    "tags": ["Welding", "Quality", "GMAW", "FCAW", "GTAW", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030"]
+  },
+  {
+    "term": "Undercut",
+    "definition": "A groove melted into the base metal alongside the weld toe that is not filled with weld metal.",
+    "example": "Students reduced undercut by lowering travel speed and correcting angle.",
+    "tags": ["Welding", "Quality", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030"]
+  },
+  {
+    "term": "Overlap",
+    "definition": "Weld metal that rolls onto the base metal without fusing properly (a form of poor fusion).",
+    "example": "Students corrected overlap by increasing heat input and adjusting travel angle.",
+    "tags": ["Welding", "Quality", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Lack of fusion",
+    "definition": "A failure of weld metal to properly fuse to base metal or between passes.",
+    "example": "Students addressed lack of fusion by improving joint prep and increasing heat input.",
+    "tags": ["Welding", "Quality", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Lack of penetration",
+    "definition": "Insufficient depth of fusion at the root of a joint when deeper penetration is required.",
+    "example": "Students adjusted root opening and technique to achieve the required penetration.",
+    "tags": ["Welding", "Quality", "FAB2060", "FAB3060", "FAB3070"]
+  },
+  {
+    "term": "Slag inclusion",
+    "definition": "Slag trapped in the weld metal, often caused by poor cleaning between passes or incorrect technique.",
+    "example": "Students chipped and brushed between passes to prevent slag inclusion.",
+    "tags": ["Welding", "Quality", "SMAW", "FCAW", "FAB2050", "FAB3050", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Spatter",
+    "definition": "Small droplets of molten metal that scatter during welding, increasing cleanup and potentially affecting quality.",
+    "example": "Students reduced spatter by adjusting voltage and stickout in wire welding.",
+    "tags": ["Welding", "Quality", "GMAW", "FCAW", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Crater",
+    "definition": "A depression at the end of a weld bead that can lead to cracking if not filled properly.",
+    "example": "Students paused and filled the crater before breaking the arc at the end of the weld.",
+    "tags": ["Welding", "Quality", "FAB2050", "FAB3050", "FAB2070", "FAB3170", "FAB2048", "FAB3048", "FAB3030"]
+  },
+  {
+    "term": "Weld cleaning",
+    "definition": "Removing slag, spatter, and contaminants to inspect and prepare for additional passes or finishing.",
+    "example": "Students cleaned the weld and inspected for defects before adding the next pass.",
+    "tags": ["Welding", "Quality", "Shop Practices", "FAB2050", "FAB2060", "FAB3050", "FAB3060", "FAB2070", "FAB3170", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Interpass cleaning",
+    "definition": "Cleaning between weld passes to prevent inclusions and ensure sound weld metal.",
+    "example": "Students wire-brushed and chipped slag between passes on a multi-pass weld.",
+    "tags": ["Welding", "Quality", "SMAW", "FCAW", "FAB2060", "FAB3060", "FAB3070", "FAB2048", "FAB3048"]
+  },
+  {
+    "term": "Welding procedure specification (WPS)",
+    "definition": "A document that lists required variables for producing an acceptable weld (process, settings, technique, materials).",
+    "example": "Students followed the WPS for wire size, gas, voltage, and travel speed range.",
+    "tags": ["Welding", "Documentation", "Quality", "FAB3040", "FAB3070", "FAB3080"]
+  },
+  {
+    "term": "Procedure variables",
+    "definition": "Welding factors that must be controlled (process, polarity, parameters, joint prep, positions) to achieve quality.",
+    "example": "Students recorded variables after a failed test coupon and adjusted one change at a time.",
+    "tags": ["Welding", "Documentation", "Quality", "FAB3040", "FAB3080"]
+  },
+  {
+    "term": "Automated welding",
+    "definition": "Welding performed by mechanized or automated equipment for consistent, repeatable results.",
+    "example": "Students identified which variables are controlled by automation versus operator setup.",
+    "tags": ["Welding", "Processes", "Production", "FAB3080", "FAB1048"]
+  },
+  {
+    "term": "Semi-automated welding",
+    "definition": "A welding approach where the machine feeds wire and maintains some consistency, but the operator guides the gun and controls technique.",
+    "example": "Students practised steady travel speed and angles while wire feed and gas delivery were machine-controlled.",
+    "tags": ["Welding", "Processes", "FAB1048", "FAB3080"]
+  },
+  {
+    "term": "Pipe and tubular welding",
+    "definition": "Welding on round or tubular components where fit-up, position, and joint consistency are critical.",
+    "example": "Students maintained consistent root opening and controlled heat input to avoid burn-through on pipe.",
+    "tags": ["Welding", "Specialty", "FAB3070"]
+  }
+  {
+    "term": "Sheet metal",
+    "definition": "Thin metal stock supplied in flat sheets, commonly used for enclosures, panels, and ducting.",
+    "example": "Students selected sheet thickness that could be formed on available shop equipment without cracking.",
+    "tags": ["Sheet Fabrication", "Materials", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Gauge",
+    "definition": "A common sheet metal thickness system where a higher gauge number typically means thinner material (varies by metal type).",
+    "example": "Students confirmed both gauge and actual thickness before setting the shear and brake.",
+    "tags": ["Sheet Fabrication", "Measurement", "Materials", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Thickness",
+    "definition": "The measured distance between the two faces of sheet metal, used to set tooling and determine bend allowances.",
+    "example": "Students measured thickness to choose the correct die opening for bending.",
+    "tags": ["Sheet Fabrication", "Measurement", "Materials", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Grain direction",
+    "definition": "The direction of metal’s rolling pattern, which affects how a sheet bends and resists cracking.",
+    "example": "Students oriented the part so critical bends were made with the grain when possible.",
+    "tags": ["Sheet Fabrication", "Materials", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Layout (sheet metal)",
+    "definition": "Marking a flat pattern on sheet metal to guide cutting, punching, and forming.",
+    "example": "Students laid out bend lines and hole centres before cutting the blank.",
+    "tags": ["Sheet Fabrication", "Measurement", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Blank",
+    "definition": "A piece of sheet metal cut to size before forming operations begin.",
+    "example": "Students cut a blank slightly oversized, then trimmed to final size after forming.",
+    "tags": ["Sheet Fabrication", "Cutting", "FAB1090", "FAB2090", "FAB2100"]
+  },
+  {
+    "term": "Flat pattern",
+    "definition": "A 2D layout of a part before it is bent or formed, including allowances for bends and seams.",
+    "example": "Students created a flat pattern for a tray so the final dimensions matched after bending.",
+    "tags": ["Sheet Fabrication", "Print Reading", "Measurement", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bend line",
+    "definition": "A marked line showing where a sheet will be bent during forming.",
+    "example": "Students aligned the bend line to the brake’s reference edge before bending.",
+    "tags": ["Sheet Fabrication", "Fabrication", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bend allowance",
+    "definition": "Extra material length added in a flat pattern to account for stretching in the bend region.",
+    "example": "Students calculated bend allowance so the finished box sides were the correct length.",
+    "tags": ["Sheet Fabrication", "Measurement", "Design", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bend deduction",
+    "definition": "The amount subtracted from outside dimensions in a flat pattern to account for material taken up in the bend.",
+    "example": "Students used bend deduction to convert finished outside dimensions into correct blank size.",
+    "tags": ["Sheet Fabrication", "Measurement", "Design", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "K-factor",
+    "definition": "A value used in bend calculations that describes where the neutral axis sits within the thickness during bending.",
+    "example": "Students used a typical K-factor for mild steel to estimate bend allowance for a project part.",
+    "tags": ["Sheet Fabrication", "Measurement", "Design", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Neutral axis",
+    "definition": "The layer within the sheet thickness that does not stretch or compress during bending.",
+    "example": "Students discussed how the neutral axis shifts based on material and tooling.",
+    "tags": ["Sheet Fabrication", "Materials", "Design", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bend radius (inside radius)",
+    "definition": "The radius formed on the inside of a bend; influenced by tooling and material thickness.",
+    "example": "Students selected tooling that produced an inside bend radius appropriate for the material to avoid cracking.",
+    "tags": ["Sheet Fabrication", "Measurement", "Quality", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Springback",
+    "definition": "The tendency of sheet metal to slightly unbend after forming due to elasticity.",
+    "example": "Students overbent slightly to compensate for springback and hit the target angle.",
+    "tags": ["Sheet Fabrication", "Materials", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bend angle",
+    "definition": "The final angle formed in the sheet after bending.",
+    "example": "Students checked bend angle with an angle gauge and adjusted setup for consistency.",
+    "tags": ["Sheet Fabrication", "Measurement", "Quality", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Press brake",
+    "definition": "A machine that bends sheet metal using a punch and die set.",
+    "example": "Students set the back gauge and aligned bend lines to produce repeatable bends.",
+    "tags": ["Sheet Fabrication", "Tools", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Punch",
+    "definition": "The upper tooling on a brake that presses into the material to form a bend.",
+    "example": "Students selected a punch profile that matched the desired inside radius.",
+    "tags": ["Sheet Fabrication", "Tools", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Die",
+    "definition": "The lower tooling on a brake that supports the material and forms the bend shape.",
+    "example": "Students chose die opening based on thickness to reduce cracking and improve accuracy.",
+    "tags": ["Sheet Fabrication", "Tools", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Die opening (V-die width)",
+    "definition": "The width of the die opening used in bending; affects bend radius, tonnage, and accuracy.",
+    "example": "Students used a wider die opening for thicker sheet to reduce required force.",
+    "tags": ["Sheet Fabrication", "Tools", "Measurement", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Air bending",
+    "definition": "A bending method where the sheet contacts the punch tip and die shoulders but does not bottom out in the die.",
+    "example": "Students used air bending to achieve multiple angles using the same punch and die set.",
+    "tags": ["Sheet Fabrication", "Processes", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bottoming",
+    "definition": "A bending method where the sheet is pressed deeper into the die to form a more fixed angle than air bending.",
+    "example": "Students used bottoming to improve repeatability for identical parts.",
+    "tags": ["Sheet Fabrication", "Processes", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Coining",
+    "definition": "A high-force bending method that permanently sets the bend by compressing material in the bend region.",
+    "example": "Students discussed coining as a method that reduces springback but requires higher tonnage.",
+    "tags": ["Sheet Fabrication", "Processes", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Back gauge",
+    "definition": "An adjustable stop on a brake used to position the sheet for consistent bend locations.",
+    "example": "Students set the back gauge so all flanges were the same depth across a batch.",
+    "tags": ["Sheet Fabrication", "Tools", "Quality", "Production", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Tonnage",
+    "definition": "The force required to make a bend, influenced by thickness, material type, die opening, and bend length.",
+    "example": "Students checked tonnage limits to ensure the brake could safely form the part.",
+    "tags": ["Sheet Fabrication", "Safety", "Tools", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+
+  {
+    "term": "Shearing",
+    "definition": "Cutting sheet metal with a straight blade action, producing a clean, fast cut.",
+    "example": "Students used the shear to cut blanks to size before forming.",
+    "tags": ["Sheet Fabrication", "Cutting", "Tools", "FAB1090", "FAB2090", "FAB2100"]
+  },
+  {
+    "term": "Squaring shear",
+    "definition": "A shear setup that uses a squaring arm/guide to produce accurate 90-degree cuts.",
+    "example": "Students used the squaring arm to keep blanks square for box and tray projects.",
+    "tags": ["Sheet Fabrication", "Cutting", "Tools", "Quality", "FAB2090", "FAB2100"]
+  },
+  {
+    "term": "Notching",
+    "definition": "Removing a section of material, often at corners, to allow folding and assembly.",
+    "example": "Students notched corners so flanges could fold without interference.",
+    "tags": ["Sheet Fabrication", "Cutting", "Fabrication", "FAB1090", "FAB2090", "FAB2100", "FAB3090"]
+  },
+  {
+    "term": "Corner relief",
+    "definition": "A notch or cut-out at a corner that reduces tearing and distortion during bending.",
+    "example": "Students added corner relief to prevent bulging at flange intersections.",
+    "tags": ["Sheet Fabrication", "Design", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Burr",
+    "definition": "A sharp raised edge left after cutting or punching that must be removed for safety and fit.",
+    "example": "Students deburred edges after shearing to prevent cuts and improve assembly.",
+    "tags": ["Sheet Fabrication", "Quality", "Safety", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Edge finishing",
+    "definition": "Smoothing or conditioning edges after cutting to meet safety and quality requirements.",
+    "example": "Students used a file and abrasive pad to break sharp edges on a panel.",
+    "tags": ["Sheet Fabrication", "Quality", "Finishing", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+
+  {
+    "term": "Hole making",
+    "definition": "Creating openings in sheet metal by drilling, punching, or cutting processes.",
+    "example": "Students chose punching for speed on repeated holes, and drilling for small batches.",
+    "tags": ["Sheet Fabrication", "Machining", "Processes", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Punching",
+    "definition": "Creating holes by shearing material with a punch and die set, often faster than drilling for production work.",
+    "example": "Students used a punch to make clean holes for rivets in sheet assemblies.",
+    "tags": ["Sheet Fabrication", "Machining", "Tools", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Drilling (sheet metal)",
+    "definition": "Making holes using a drill bit; requires support to prevent grabbing and distortion.",
+    "example": "Students backed sheet metal with scrap to reduce burrs and prevent the bit from grabbing.",
+    "tags": ["Sheet Fabrication", "Machining", "Tools", "Safety", "FAB1090", "FAB2090", "FAB2100"]
+  },
+  {
+    "term": "Step drill",
+    "definition": "A drill bit with stepped diameters used to create clean holes in thin material.",
+    "example": "Students used a step drill to enlarge holes without tearing the sheet.",
+    "tags": ["Sheet Fabrication", "Tools", "Machining", "FAB2090", "FAB2100", "FAB3090"]
+  },
+  {
+    "term": "Countersink",
+    "definition": "A conical recess that allows a flat-head fastener to sit flush with the surface.",
+    "example": "Students countersunk holes for flush fasteners on a panel surface.",
+    "tags": ["Sheet Fabrication", "Fasteners", "Machining", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Counterbore",
+    "definition": "A flat-bottom recess that allows a fastener head to sit below or flush with the surface.",
+    "example": "Students counterbored holes to recess bolt heads where clearance was required.",
+    "tags": ["Sheet Fabrication", "Fasteners", "Machining", "FAB3090", "FAB3110"]
+  },
+
+  {
+    "term": "Mechanical fastening (sheet)",
+    "definition": "Joining sheet parts using fasteners rather than welding, often for serviceability and distortion control.",
+    "example": "Students used rivets for a thin enclosure to reduce heat distortion.",
+    "tags": ["Sheet Fabrication", "Fasteners", "Joining", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Rivet",
+    "definition": "A permanent mechanical fastener used to join sheet materials by deforming a shank to clamp parts together.",
+    "example": "Students selected rivet length so it formed correctly without crushing the sheet.",
+    "tags": ["Sheet Fabrication", "Fasteners", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Blind rivet",
+    "definition": "A rivet installed from one side of the workpiece (commonly called a pop rivet).",
+    "example": "Students used blind rivets when the inside of the enclosure was not accessible.",
+    "tags": ["Sheet Fabrication", "Fasteners", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Rivet spacing",
+    "definition": "The distance between rivets, affecting joint strength and distortion control.",
+    "example": "Students followed a consistent rivet spacing pattern along a seam for uniform strength.",
+    "tags": ["Sheet Fabrication", "Design", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Seam",
+    "definition": "A joint in sheet metal where edges meet or overlap, often folded or fastened.",
+    "example": "Students created a seam to join two sheet edges before fastening and finishing.",
+    "tags": ["Sheet Fabrication", "Fabrication", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Hem",
+    "definition": "A folded edge that reinforces a panel and removes sharp edges.",
+    "example": "Students hemmed the panel edge so it was safer to handle and more rigid.",
+    "tags": ["Sheet Fabrication", "Fabrication", "Quality", "Safety", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Flange",
+    "definition": "A bent edge that adds stiffness, provides attachment surfaces, or forms an enclosure.",
+    "example": "Students added flanges to a tray to improve rigidity and provide mounting points.",
+    "tags": ["Sheet Fabrication", "Fabrication", "Design", "FAB1090", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Offset",
+    "definition": "A stepped form used to align surfaces or create clearance between sheet sections.",
+    "example": "Students formed an offset so overlapping panels sat flush in an assembly.",
+    "tags": ["Sheet Fabrication", "Fabrication", "Design", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bead (sheet metal stiffening)",
+    "definition": "A formed ridge that increases stiffness without adding thickness.",
+    "example": "Students added a bead to a large panel to reduce oil-canning and vibration.",
+    "tags": ["Sheet Fabrication", "Fabrication", "Design", "FAB3090", "FAB3110"]
+  },
+
+  {
+    "term": "Pattern development",
+    "definition": "Planning and creating accurate flat patterns for formed shapes, including allowances and relief cuts.",
+    "example": "Students developed patterns for a box and verified dimensions before production cutting.",
+    "tags": ["Sheet Fabrication", "Design", "Print Reading", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Production repeatability",
+    "definition": "The ability to produce the same part consistently across multiple units.",
+    "example": "Students used back gauge settings and a bend sequence to make repeated parts match.",
+    "tags": ["Sheet Fabrication", "Production", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Bend sequence",
+    "definition": "The planned order of bends to avoid interference with tooling and to maintain accuracy.",
+    "example": "Students bent small flanges first so the part still fit the brake for later bends.",
+    "tags": ["Sheet Fabrication", "Planning", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Interference",
+    "definition": "When a partially formed part contacts tooling or machine components and prevents correct forming.",
+    "example": "Students changed bend sequence to avoid the flange hitting the punch during a later bend.",
+    "tags": ["Sheet Fabrication", "Planning", "Quality", "FAB2100", "FAB3090", "FAB3110"]
+  },
+  {
+    "term": "Forming defect",
+    "definition": "An issue created during forming such as cracking, tearing, excessive springback, or distorted geometry.",
+    "example": "Edge cracking led students to increase bend radius and check grain direction.",
+    "tags": ["Sheet Fabrication", "Quality", "FAB2090", "FAB2100", "FAB3090", "FAB3110"]
+  }
+  {
+    "term": "Foundry",
+    "definition": "A process area where metal is melted and poured into moulds to create cast parts.",
+    "example": "Students planned the foundry workflow: pattern prep, mould making, melt, pour, cool, and finishing.",
+    "tags": ["Foundry", "Casting", "Processes", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Casting",
+    "definition": "Making a part by pouring molten metal into a mould and allowing it to solidify.",
+    "example": "Students cast a simple part, then removed gates and cleaned the casting for inspection.",
+    "tags": ["Foundry", "Casting", "Processes", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Pattern",
+    "definition": "A model of the part used to create the mould cavity; typically slightly oversized to account for shrinkage and machining.",
+    "example": "Students used a pattern to form a sand mould cavity for a class casting project.",
+    "tags": ["Foundry", "Design", "Tools", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Pattern allowance",
+    "definition": "Intentional size and shape adjustments built into a pattern (shrinkage, draft, machining allowance, distortion).",
+    "example": "Students added machining allowance so the final surface could be filed or machined to size after casting.",
+    "tags": ["Foundry", "Design", "Measurement", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Shrinkage allowance",
+    "definition": "Extra size added to a pattern to account for metal contraction as it cools and solidifies.",
+    "example": "Students selected a shrinkage allowance based on the metal being cast.",
+    "tags": ["Foundry", "Design", "Materials", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Machining allowance",
+    "definition": "Extra material added to cast surfaces that will be finished by machining or filing after casting.",
+    "example": "Students left extra stock on a surface so it could be flattened after casting.",
+    "tags": ["Foundry", "Design", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Draft",
+    "definition": "A slight taper on vertical surfaces of a pattern to help it release from the mould without tearing sand.",
+    "example": "Students added draft to the pattern so it could be removed cleanly from the mould.",
+    "tags": ["Foundry", "Design", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Parting line",
+    "definition": "The line where mould halves meet and separate (cope and drag).",
+    "example": "Students planned the parting line to reduce undercuts and improve mould removal.",
+    "tags": ["Foundry", "Moulding", "Design", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Cope",
+    "definition": "The top half of a two-part sand mould.",
+    "example": "Students placed the cope on the drag and aligned the mould halves before pouring.",
+    "tags": ["Foundry", "Moulding", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Drag",
+    "definition": "The bottom half of a two-part sand mould.",
+    "example": "Students packed sand into the drag and levelled the surface before setting the cope.",
+    "tags": ["Foundry", "Moulding", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Flask",
+    "definition": "A rigid frame that holds the sand mould (cope and drag sections).",
+    "example": "Students clamped the flask securely so the mould stayed aligned during the pour.",
+    "tags": ["Foundry", "Moulding", "Tools", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Mould cavity",
+    "definition": "The hollow space in the mould that forms the shape of the casting.",
+    "example": "Students inspected the mould cavity for broken edges before assembling the mould.",
+    "tags": ["Foundry", "Moulding", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Core",
+    "definition": "A shaped insert placed in the mould to form internal cavities or holes in the casting.",
+    "example": "Students used a core to create a hollow section that could not be formed by the pattern alone.",
+    "tags": ["Foundry", "Moulding", "Design", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Core print",
+    "definition": "A feature on a pattern that supports and locates a core in the correct position.",
+    "example": "Students relied on core prints so the core did not shift during assembly or pour.",
+    "tags": ["Foundry", "Design", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Green sand",
+    "definition": "Moist moulding sand (sand, clay binder, water) used to form moulds that hold shape when packed.",
+    "example": "Students checked green sand moisture so it packed well and held detail without crumbling.",
+    "tags": ["Foundry", "Materials", "Moulding", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Binder",
+    "definition": "A material added to sand to help it hold together and keep mould shape.",
+    "example": "Students adjusted binder content so the mould maintained edges during pattern removal.",
+    "tags": ["Foundry", "Materials", "Moulding", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Ramming",
+    "definition": "Packing sand around a pattern to create a strong mould with good detail.",
+    "example": "Students rammed evenly to avoid soft spots that could wash out during pouring.",
+    "tags": ["Foundry", "Moulding", "Technique", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Vent",
+    "definition": "Small passages that allow gases and steam to escape from the mould during pouring.",
+    "example": "Students vented the cope to reduce gas defects in the casting.",
+    "tags": ["Foundry", "Moulding", "Quality", "Safety", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Sprue",
+    "definition": "The main vertical channel that molten metal flows through into the mould.",
+    "example": "Students cut a sprue that fed smoothly without breaking mould walls.",
+    "tags": ["Foundry", "Gating System", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Runner",
+    "definition": "A horizontal channel that carries molten metal from the sprue to the gate(s).",
+    "example": "Students designed runners to deliver metal to the cavity without excessive turbulence.",
+    "tags": ["Foundry", "Gating System", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Gate",
+    "definition": "The entry point where molten metal flows from the runner into the mould cavity.",
+    "example": "Students positioned the gate to reduce erosion and help fill the cavity evenly.",
+    "tags": ["Foundry", "Gating System", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Riser",
+    "definition": "A reservoir of molten metal that feeds the casting as it shrinks during solidification, reducing shrinkage voids.",
+    "example": "Students placed a riser near the thickest section to feed it during cooling.",
+    "tags": ["Foundry", "Gating System", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Chill",
+    "definition": "A material placed in a mould to increase cooling rate in a specific area and control solidification.",
+    "example": "Students used a chill to help a thicker section solidify more evenly and reduce defects.",
+    "tags": ["Foundry", "Solidification", "Quality", "FAB3120"]
+  },
+  {
+    "term": "Turbulence",
+    "definition": "Chaotic metal flow that can trap gas and erode mould surfaces, increasing defects.",
+    "example": "Students poured steadily to reduce turbulence and avoid sand inclusions.",
+    "tags": ["Foundry", "Technique", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Pouring basin",
+    "definition": "A reservoir at the top of the sprue that helps control flow and reduce aspiration/turbulence.",
+    "example": "Students used a pouring basin to maintain a stable metal head during the pour.",
+    "tags": ["Foundry", "Gating System", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Ladle",
+    "definition": "A tool used to transport and pour molten metal safely.",
+    "example": "Students preheated the ladle and used a controlled pour into the sprue.",
+    "tags": ["Foundry", "Tools", "Safety", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Crucible",
+    "definition": "A heat-resistant container used to melt metal in a furnace.",
+    "example": "Students inspected the crucible for cracks before charging it with metal.",
+    "tags": ["Foundry", "Tools", "Safety", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Furnace",
+    "definition": "Equipment used to heat and melt metal to a pouring temperature.",
+    "example": "Students followed the furnace start-up procedure and monitored melt progress.",
+    "tags": ["Foundry", "Tools", "Safety", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Charge",
+    "definition": "The metal placed into a crucible or furnace to be melted.",
+    "example": "Students prepared a clean charge by removing contaminants and sorting by metal type.",
+    "tags": ["Foundry", "Materials", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Pouring temperature",
+    "definition": "The temperature range at which metal is poured to fill the mould properly without excessive defects.",
+    "example": "Students aimed for proper pouring temperature so the metal filled detail without cold shuts.",
+    "tags": ["Foundry", "Materials", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Solidification",
+    "definition": "The change from liquid metal to solid metal during cooling in the mould.",
+    "example": "Students discussed why thick sections solidify slower and need feeding from a riser.",
+    "tags": ["Foundry", "Solidification", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Cooling rate",
+    "definition": "How quickly the casting cools, affecting grain structure, strength, and defect formation.",
+    "example": "Students compared cooling rate effects between thin and thick casting sections.",
+    "tags": ["Foundry", "Solidification", "Materials", "FAB2120", "FAB3120"]
+  },
+
+  {
+    "term": "Cold shut",
+    "definition": "A defect where two metal fronts meet but do not fuse, often due to low temperature or poor gating.",
+    "example": "Students identified a cold shut line and suggested increasing pouring temperature or improving gating.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Misrun",
+    "definition": "A casting defect where the mould is not completely filled.",
+    "example": "A misrun led students to adjust pouring technique and check venting and temperature.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Shrinkage cavity",
+    "definition": "A void caused by metal contraction during solidification when there is insufficient feeding.",
+    "example": "Students traced a shrinkage cavity to poor riser placement near a thick section.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Gas porosity (casting)",
+    "definition": "Small holes in a casting caused by trapped gases from moisture, turbulence, or contamination.",
+    "example": "Students reduced gas porosity by improving venting and avoiding overly wet sand.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Sand inclusion",
+    "definition": "Sand trapped in the casting due to mould erosion, poor ramming, or turbulent flow.",
+    "example": "Students improved ramming and reduced turbulence to prevent sand inclusions.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Hot tear",
+    "definition": "A crack that forms during solidification when metal cannot contract freely.",
+    "example": "Students identified a hot tear and discussed improving mould design to allow contraction.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB3120"]
+  },
+  {
+    "term": "Burn-on",
+    "definition": "A defect where sand fuses to the casting surface due to high temperature or sand issues.",
+    "example": "Students removed burn-on during finishing and reviewed sand condition to prevent recurrence.",
+    "tags": ["Foundry", "Defects", "Quality", "FAB2120", "FAB3120"]
+  },
+
+  {
+    "term": "Shakeout",
+    "definition": "Removing the casting from the mould after it has cooled sufficiently.",
+    "example": "Students waited for safe temperature, then performed shakeout and collected sand for reuse or disposal.",
+    "tags": ["Foundry", "Process Steps", "Safety", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Gate removal",
+    "definition": "Cutting or breaking off gates and runners from a casting after shakeout.",
+    "example": "Students removed gates and runners, then ground the stubs flush as required.",
+    "tags": ["Foundry", "Finishing", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Fettling",
+    "definition": "Cleaning and finishing a casting by removing excess material and improving surface quality.",
+    "example": "Students fettled the casting by grinding flash and smoothing rough areas before inspection.",
+    "tags": ["Foundry", "Finishing", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Flash (casting)",
+    "definition": "Thin excess metal that leaks into mould parting lines or gaps.",
+    "example": "Students removed flash at the parting line during finishing operations.",
+    "tags": ["Foundry", "Defects", "Finishing", "Quality", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Dimensional inspection (casting)",
+    "definition": "Checking key measurements of a casting against intended dimensions after cooling and finishing.",
+    "example": "Students measured critical features to decide whether additional finishing or machining was required.",
+    "tags": ["Foundry", "Quality", "Measurement", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Foundry PPE",
+    "definition": "Specialized protection for molten metal work (face shield, heat-resistant gloves, leathers, footwear, eye protection).",
+    "example": "Students wore foundry PPE during pouring and maintained safe spacing around the pour area.",
+    "tags": ["Safety", "Foundry", "FAB1120", "FAB2120", "FAB3120"]
+  },
+  {
+    "term": "Moisture hazard (foundry)",
+    "definition": "The risk of violent steam expansion and spatter if molten metal contacts moisture.",
+    "example": "Students ensured tools and scrap were dry before charging and pouring to prevent eruptions.",
+    "tags": ["Safety", "Foundry", "FAB1120", "FAB2120", "FAB3120"]
+  }
+  {
+    "term": "Machining",
+    "definition": "Removing material in a controlled way to produce accurate sizes, shapes, and surface finishes.",
+    "example": "Students machined a part to final dimension by facing, drilling, and turning to meet tolerance.",
+    "tags": ["Machining", "Processes", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Material removal rate",
+    "definition": "How quickly material is removed during machining, affected by speed, feed, depth of cut, and tooling.",
+    "example": "Students reduced depth of cut to lower the material removal rate and improve surface finish.",
+    "tags": ["Machining", "Parameters", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Workholding",
+    "definition": "Securing the workpiece so it can be machined safely and accurately.",
+    "example": "Students checked that stock was seated and clamped before turning to avoid the part shifting.",
+    "tags": ["Machining", "Safety", "Tools", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Datum (machining)",
+    "definition": "A reference surface, point, or axis used to locate and measure features during machining.",
+    "example": "Students established a datum face by facing the part before measuring length features.",
+    "tags": ["Machining", "Measurement", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Tolerance",
+    "definition": "The allowable variation from a target dimension.",
+    "example": "Students machined to a tolerance by taking a finishing pass and measuring frequently.",
+    "tags": ["Machining", "Measurement", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Surface finish",
+    "definition": "The texture and smoothness of a machined surface, influenced by tool condition and machining parameters.",
+    "example": "Students improved surface finish by reducing feed rate and using a sharp tool.",
+    "tags": ["Machining", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Burr",
+    "definition": "A sharp raised edge left after cutting or machining operations.",
+    "example": "Students removed burrs from a drilled hole so a shaft would fit smoothly.",
+    "tags": ["Machining", "Quality", "Safety", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Chip",
+    "definition": "A piece of material removed during machining.",
+    "example": "Students used a brush to clear chips rather than hands to prevent cuts.",
+    "tags": ["Machining", "Safety", "Shop Practices", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Chip control",
+    "definition": "Managing chip size and shape to improve safety, finish, and tool life.",
+    "example": "Students adjusted feed and depth of cut to prevent long stringy chips from wrapping the tool.",
+    "tags": ["Machining", "Safety", "Quality", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Cutting fluid",
+    "definition": "Fluid used to cool, lubricate, and help remove chips during machining.",
+    "example": "Students applied cutting fluid while drilling to reduce heat and improve tool life.",
+    "tags": ["Machining", "Tools", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+
+  {
+    "term": "Speed (RPM)",
+    "definition": "Spindle rotation rate, measured in revolutions per minute, affecting cutting action and heat.",
+    "example": "Students lowered RPM when machining larger diameters to maintain safe cutting conditions.",
+    "tags": ["Machining", "Parameters", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Cutting speed (surface speed)",
+    "definition": "The speed of the cutting edge relative to the workpiece surface, based on RPM and diameter.",
+    "example": "Students increased surface speed for aluminum compared to steel to improve finish.",
+    "tags": ["Machining", "Parameters", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Feed rate",
+    "definition": "How fast the tool advances into or across the workpiece, affecting finish and chip load.",
+    "example": "Students reduced feed rate for a finishing pass to achieve a smoother surface.",
+    "tags": ["Machining", "Parameters", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Depth of cut",
+    "definition": "How much material the tool removes in one pass, affecting load and tool wear.",
+    "example": "Students used a shallow depth of cut for finishing to maintain tolerance.",
+    "tags": ["Machining", "Parameters", "Quality", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+
+  {
+    "term": "Lathe",
+    "definition": "A machine that rotates the workpiece while a cutting tool removes material to create cylindrical shapes.",
+    "example": "Students used the lathe to face the end of stock and turn to diameter.",
+    "tags": ["Machining", "Tools", "Turning", "FAB2130", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Milling machine",
+    "definition": "A machine that rotates a cutting tool to remove material from a stationary workpiece, creating flats, slots, and profiles.",
+    "example": "Students used the milling machine to cut a keyway slot to a specified width.",
+    "tags": ["Machining", "Tools", "Milling", "FAB2140", "FAB3140", "FAB3150"]
+  },
+  {
+    "term": "Spindle",
+    "definition": "The rotating component of a machine tool that holds and drives a chuck, collet, or toolholder.",
+    "example": "Students verified spindle direction and speed before engaging the cut.",
+    "tags": ["Machining", "Tools", "Safety", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Chuck",
+    "definition": "A clamping device on a lathe spindle used to hold the workpiece (often a three-jaw or four-jaw).",
+    "example": "Students ensured the chuck key was removed immediately after tightening.",
+    "tags": ["Machining", "Tools", "Safety", "Turning", "FAB2130", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Chuck key",
+    "definition": "A key used to tighten or loosen a chuck; must never be left in the chuck.",
+    "example": "Students performed a visual check to confirm the chuck key was removed before starting the lathe.",
+    "tags": ["Machining", "Safety", "Turning", "FAB2130", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Collet",
+    "definition": "A precision clamping device used to hold round stock or tooling with strong concentricity.",
+    "example": "Students used a collet to hold small-diameter stock with minimal runout.",
+    "tags": ["Machining", "Tools", "Turning", "Milling", "FAB3130", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Toolholder",
+    "definition": "A device that holds and positions a cutting tool securely.",
+    "example": "Students checked toolholder tightness to prevent chatter during a turning pass.",
+    "tags": ["Machining", "Tools", "Turning", "Milling", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Cutting tool geometry",
+    "definition": "The angles and shape of a cutting tool that affect chip formation, cutting forces, and finish.",
+    "example": "Students selected a tool with appropriate rake for aluminum to reduce built-up edge.",
+    "tags": ["Machining", "Tools", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Tool wear",
+    "definition": "Gradual loss of cutting edge quality that reduces finish and accuracy.",
+    "example": "Students replaced a dull tool after noticing increased cutting force and poor finish.",
+    "tags": ["Machining", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Chatter",
+    "definition": "Vibration during cutting that leaves a rough finish and can damage tools or work.",
+    "example": "Students reduced chatter by tightening workholding and adjusting speed and depth of cut.",
+    "tags": ["Machining", "Quality", "Safety", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+
+  {
+    "term": "Facing",
+    "definition": "Machining the end of a workpiece flat and square to its axis on a lathe.",
+    "example": "Students faced the stock to create a clean datum surface before turning to length.",
+    "tags": ["Machining", "Turning", "Processes", "FAB2130", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Turning",
+    "definition": "Reducing the diameter of a rotating workpiece on a lathe using a cutting tool.",
+    "example": "Students turned the shaft to final diameter and verified size with a micrometer.",
+    "tags": ["Machining", "Turning", "Processes", "FAB2130", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Taper turning",
+    "definition": "Creating a conical surface on a lathe by changing the tool path relative to the work axis.",
+    "example": "Students produced a taper to match a mating component requirement.",
+    "tags": ["Machining", "Turning", "Processes", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Parting (cut-off)",
+    "definition": "Cutting a finished part off from stock on a lathe using a parting tool.",
+    "example": "Students used cutting fluid and steady feed to part off without binding.",
+    "tags": ["Machining", "Turning", "Processes", "FAB2130", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Knurling",
+    "definition": "Rolling a patterned texture onto a cylindrical surface to improve grip.",
+    "example": "Students knurled a handle section to make it easier to hold with gloves.",
+    "tags": ["Machining", "Turning", "Processes", "FAB3130"]
+  },
+  {
+    "term": "Boring",
+    "definition": "Enlarging and finishing an existing hole on a lathe to improve accuracy and surface finish.",
+    "example": "Students bored a hole to a precise diameter for a press fit.",
+    "tags": ["Machining", "Turning", "Processes", "FAB3130", "FAB2150"]
+  },
+  {
+    "term": "Reaming",
+    "definition": "Finishing a drilled hole to an accurate diameter and improved finish using a reamer.",
+    "example": "Students reamed a hole so a pin fit smoothly without wobble.",
+    "tags": ["Machining", "Processes", "Quality", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Drilling",
+    "definition": "Creating a hole using a drill bit, often as a first step before reaming or tapping.",
+    "example": "Students centre-drilled, then drilled to depth before reaming to final size.",
+    "tags": ["Machining", "Processes", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Centre drilling",
+    "definition": "Using a short, rigid centre drill to start an accurate hole and create a lead-in for drilling.",
+    "example": "Students centre-drilled to prevent the main drill bit from wandering.",
+    "tags": ["Machining", "Processes", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Tapping",
+    "definition": "Cutting internal threads in a hole using a tap.",
+    "example": "Students tapped a drilled hole to create threads for a bolt connection.",
+    "tags": ["Machining", "Processes", "Fasteners", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Thread pitch",
+    "definition": "The distance between threads (or threads per inch) that must match the fastener.",
+    "example": "Students checked thread pitch before tapping to ensure the correct bolt would fit.",
+    "tags": ["Machining", "Fasteners", "Measurement", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Milling (operation)",
+    "definition": "Removing material with a rotating multi-edge cutter to create flats, slots, and contours.",
+    "example": "Students milled a flat surface to create a datum before cutting a slot feature.",
+    "tags": ["Machining", "Milling", "Processes", "FAB2140", "FAB3140", "FAB3150"]
+  },
+  {
+    "term": "End mill",
+    "definition": "A milling cutter used for slotting, profiling, and facing operations.",
+    "example": "Students selected a two-flute end mill for aluminum to improve chip clearing.",
+    "tags": ["Machining", "Tools", "Milling", "FAB2140", "FAB3140", "FAB3150"]
+  },
+  {
+    "term": "Face mill",
+    "definition": "A cutter used to machine large flat surfaces efficiently.",
+    "example": "Students used a face mill to flatten a plate to consistent thickness.",
+    "tags": ["Machining", "Tools", "Milling", "FAB3140", "FAB3150"]
+  },
+  {
+    "term": "Slot",
+    "definition": "A narrow opening machined into a part, often for keys, tabs, or clearance.",
+    "example": "Students milled a slot to fit a matching tab with minimal play.",
+    "tags": ["Machining", "Milling", "Processes", "FAB2140", "FAB3140", "FAB3150"]
+  },
+  {
+    "term": "Keyway",
+    "definition": "A specific slot that accepts a key to prevent relative rotation between a shaft and hub.",
+    "example": "Students machined a keyway to match the specified key size for torque transfer.",
+    "tags": ["Machining", "Milling", "Design", "FAB3140", "FAB3150"]
+  },
+
+  {
+    "term": "Measuring instruments",
+    "definition": "Tools used to verify dimensions and tolerance (calipers, micrometers, indicators).",
+    "example": "Students measured diameter with a micrometer for higher precision than calipers.",
+    "tags": ["Machining", "Measurement", "Quality", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Calipers",
+    "definition": "A measuring tool used for outside, inside, and depth measurements.",
+    "example": "Students used calipers to check rough dimensions before a finishing pass.",
+    "tags": ["Machining", "Measurement", "Tools", "FAB1130", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Micrometer",
+    "definition": "A precision measuring tool used for very accurate outside (and other) measurements.",
+    "example": "Students used a micrometer to verify final shaft diameter within tight tolerance.",
+    "tags": ["Machining", "Measurement", "Quality", "FAB2130", "FAB3130", "FAB2140", "FAB3140"]
+  },
+  {
+    "term": "Dial indicator",
+    "definition": "A precision instrument used to measure small movements and check runout, alignment, or flatness.",
+    "example": "Students used a dial indicator to check runout before finishing a turning operation.",
+    "tags": ["Machining", "Measurement", "Quality", "FAB3130", "FAB3140", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Runout",
+    "definition": "Wobble or deviation from true rotation, causing accuracy and finish issues.",
+    "example": "Students corrected runout by reseating the stock and checking chuck clamping.",
+    "tags": ["Machining", "Measurement", "Quality", "FAB3130", "FAB2150", "FAB3150"]
+  },
+
+  {
+    "term": "CNC",
+    "definition": "Computer Numerical Control: machines that follow programmed instructions to cut parts accurately and repeatably.",
+    "example": "Students used CNC to produce multiple identical parts with consistent dimensions.",
+    "tags": ["Machining", "CNC", "Production", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "G-code",
+    "definition": "The common programming language used to control CNC machine motions and functions.",
+    "example": "Students reviewed G-code commands to confirm safe tool paths before running the program.",
+    "tags": ["Machining", "CNC", "Documentation", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Work coordinate system (WCS)",
+    "definition": "A defined coordinate reference used by CNC to locate the part relative to the machine.",
+    "example": "Students set the WCS so the program’s origin matched the part datum corner.",
+    "tags": ["Machining", "CNC", "Measurement", "Quality", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Machine zero",
+    "definition": "The machine’s fixed reference point used to establish coordinates and travel limits.",
+    "example": "Students referenced machine zero when setting up offsets and verifying travel range.",
+    "tags": ["Machining", "CNC", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Work zero",
+    "definition": "The chosen origin point for a CNC job, set on the workpiece or fixture.",
+    "example": "Students set work zero at the top corner of stock to simplify toolpath programming.",
+    "tags": ["Machining", "CNC", "Measurement", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Tool offset",
+    "definition": "A stored value that accounts for tool length/diameter so CNC can cut accurately.",
+    "example": "Students measured a tool and entered offsets before running the first operation.",
+    "tags": ["Machining", "CNC", "Measurement", "Quality", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Toolpath",
+    "definition": "The programmed route a cutting tool follows to remove material.",
+    "example": "Students simulated the toolpath to ensure it cleared clamps and avoided collisions.",
+    "tags": ["Machining", "CNC", "Processes", "Safety", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Dry run",
+    "definition": "Running a CNC program without cutting (or at safe height) to check movement and safety.",
+    "example": "Students performed a dry run to confirm the toolpath cleared the vise and fixtures.",
+    "tags": ["Machining", "CNC", "Safety", "Quality", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Collision",
+    "definition": "Unwanted contact between tool, workpiece, fixture, or machine components during CNC operation.",
+    "example": "Students prevented collision by verifying offsets and running a simulation first.",
+    "tags": ["Machining", "CNC", "Safety", "FAB2150", "FAB3150"]
+  },
+  {
+    "term": "Feeds and speeds (CNC)",
+    "definition": "Programmed feed rate and spindle speed values that affect tool load, finish, and safety.",
+    "example": "Students reduced feed rate on a finishing toolpath to improve surface finish.",
+    "tags": ["Machining", "CNC", "Parameters", "Quality", "FAB2150", "FAB3150"]
+  }
+  {
+    "term": "Forging",
+    "definition": "Shaping metal by applying force (hammering or pressing), usually while the metal is hot, to change its form and structure.",
+    "example": "Students forged a tapered section by heating steel and drawing it out on the anvil.",
+    "tags": ["Forging", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Hot working",
+    "definition": "Deforming metal at elevated temperature so it is easier to shape and less likely to crack.",
+    "example": "Students reheated the workpiece to maintain hot-working temperature before continuing shaping.",
+    "tags": ["Forging", "Materials", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Forge",
+    "definition": "A heating unit used to bring metal to a workable temperature for forging.",
+    "example": "Students used the forge to heat the steel evenly before starting hammer work.",
+    "tags": ["Forging", "Tools", "Safety", "FAB2110"]
+  },
+  {
+    "term": "Anvil",
+    "definition": "A heavy steel work surface used for shaping and supporting hot metal during forging.",
+    "example": "Students used the anvil face for flattening and the horn for forming curves.",
+    "tags": ["Forging", "Tools", "FAB2110"]
+  },
+  {
+    "term": "Hammer (forging)",
+    "definition": "A tool used to deliver controlled blows to shape hot metal.",
+    "example": "Students used consistent hammer strikes to keep the taper even and centred.",
+    "tags": ["Forging", "Tools", "Technique", "FAB2110"]
+  },
+  {
+    "term": "Tongs",
+    "definition": "Gripping tools used to hold and control hot metal safely.",
+    "example": "Students used tongs to keep hands away from heat while rotating the workpiece.",
+    "tags": ["Forging", "Tools", "Safety", "FAB2110"]
+  },
+  {
+    "term": "Quench",
+    "definition": "Rapid cooling of hot metal in a medium (water, oil, etc.) to change properties or stop heat effects.",
+    "example": "Students quenched between heats to stop scaling on a surface they needed to preserve.",
+    "tags": ["Forging", "Materials", "Processes", "Safety", "FAB2110"]
+  },
+  {
+    "term": "Scaling",
+    "definition": "Oxide buildup on hot steel surfaces caused by exposure to air at high temperature.",
+    "example": "Students wire-brushed scale between heats to keep surfaces clean and reduce defects.",
+    "tags": ["Forging", "Materials", "Quality", "FAB2110"]
+  },
+  {
+    "term": "Heat colour",
+    "definition": "A visual indicator of temperature on hot metal (used as a practical guide for working range).",
+    "example": "Students used heat colour to decide when to reheat rather than hammering too cold.",
+    "tags": ["Forging", "Technique", "Safety", "FAB2110"]
+  },
+  {
+    "term": "Working range",
+    "definition": "The temperature span where a metal can be forged effectively without cracking or burning.",
+    "example": "Students avoided striking the steel below its working range to prevent cracking.",
+    "tags": ["Forging", "Materials", "Technique", "FAB2110"]
+  },
+  {
+    "term": "Overheating (burning)",
+    "definition": "Heating metal too hot, damaging structure and increasing the risk of cracking or failure.",
+    "example": "Students reduced forge time and controlled airflow to avoid burning the steel edges.",
+    "tags": ["Forging", "Safety", "Materials", "Quality", "FAB2110"]
+  },
+  {
+    "term": "Drawing out",
+    "definition": "A forging operation that lengthens metal while reducing its cross-section.",
+    "example": "Students drew out a bar to make a longer, thinner section for a hook.",
+    "tags": ["Forging", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Upsetting",
+    "definition": "A forging operation that shortens metal while increasing its cross-section (thickening).",
+    "example": "Students upset the end of a bar to create more mass for a head or shoulder.",
+    "tags": ["Forging", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Bending (forging)",
+    "definition": "Forming a curve or angle in hot metal using controlled force and support surfaces.",
+    "example": "Students bent the workpiece over the anvil horn to form a smooth curve.",
+    "tags": ["Forging", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Twisting",
+    "definition": "Rotating a heated section to create a spiral form while keeping the rest of the part aligned.",
+    "example": "Students twisted the bar evenly using a twisting wrench and consistent heat.",
+    "tags": ["Forging", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Fullering",
+    "definition": "Using a fuller tool or edge to create grooves and move material efficiently during forging.",
+    "example": "Students used fullering to define a transition before drawing out a taper.",
+    "tags": ["Forging", "Tools", "Technique", "FAB2110"]
+  },
+  {
+    "term": "Flattening",
+    "definition": "Smoothing and thinning a section using controlled hammer blows on the anvil face.",
+    "example": "Students flattened a section to a target thickness before final shaping.",
+    "tags": ["Forging", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Punching (forging)",
+    "definition": "Creating a hole in hot metal using a punch tool, often followed by drifting to size.",
+    "example": "Students punched a hole, then drifted it to final size for a rivet or handle fit.",
+    "tags": ["Forging", "Tools", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Drifting",
+    "definition": "Enlarging and shaping a punched hole using a drift tool to reach final size and shape.",
+    "example": "Students used a drift to make the hole round and consistent before cooling.",
+    "tags": ["Forging", "Tools", "Technique", "Processes", "FAB2110"]
+  },
+  {
+    "term": "Hardy tool",
+    "definition": "An anvil-mounted tool inserted into the hardy hole for cutting, bending, or shaping operations.",
+    "example": "Students used a hardy cut-off tool to hot-cut stock to length.",
+    "tags": ["Forging", "Tools", "FAB2110"]
+  },
+  {
+    "term": "Hot cut",
+    "definition": "Cutting metal while it is hot using chisels or anvil tools.",
+    "example": "Students hot-cut the end of a bar, then returned it to the forge to reheat.",
+    "tags": ["Forging", "Technique", "Processes", "Safety", "FAB2110"]
+  },
+  {
+    "term": "Normalizing",
+    "definition": "Heating and air-cooling steel to refine grain structure and relieve stresses after forging.",
+    "example": "Students normalized a forged piece to reduce internal stress before final finishing.",
+    "tags": ["Forging", "Materials", "Processes", "Quality", "FAB2110"]
+  },
+  {
+    "term": "Grain flow",
+    "definition": "The direction of the metal’s internal structure, often improved by forging for strength along the part shape.",
+    "example": "Students discussed how forging can align grain flow with the part’s shape for durability.",
+    "tags": ["Forging", "Materials", "Design", "FAB2110"]
+  },
+  {
+    "term": "Stress relief",
+    "definition": "Reducing internal stresses created by heating and deformation to prevent warping or cracking later.",
+    "example": "After forging, students used a controlled cool-down to reduce stress and distortion.",
+    "tags": ["Forging", "Materials", "Quality", "FAB2110"]
+  },
+  {
+    "term": "Forging PPE",
+    "definition": "Protective gear for hot work (eye protection, heat-resistant gloves, leathers, proper footwear, hearing protection).",
+    "example": "Students wore forging PPE to protect against scale, sparks, and hot material contact.",
+    "tags": ["Forging", "Safety", "FAB2110"]
+  },
+  {
+    "term": "Safe heat handling",
+    "definition": "Practices for safely moving, placing, and setting down hot metal to prevent burns and fires.",
+    "example": "Students placed hot steel only on designated surfaces and communicated ‘hot’ clearly to others.",
+    "tags": ["Forging", "Safety", "Shop Practices", "FAB2110"]
+  }
+  {
+    "term": "Custom fabrication",
+    "definition": "Building one-off or small-run parts to meet specific requirements, often requiring planning, fit-up, and problem-solving.",
+    "example": "Students produced a custom bracket by measuring the mounting location, drafting a plan, and fabricating to fit.",
+    "tags": ["Fabrication", "Processes", "FAB2160"]
+  },
+  {
+    "term": "Prefabrication",
+    "definition": "Producing components in advance (often in a shop) so they can be assembled efficiently on site or later in a build.",
+    "example": "Students prefabricated identical frame sections to reduce on-site assembly time and improve consistency.",
+    "tags": ["Fabrication", "Production", "FAB3160"]
+  },
+  {
+    "term": "Pipe fitting",
+    "definition": "Planning, measuring, cutting, assembling, and installing piping systems using fittings and alignment methods.",
+    "example": "Students built a simple piping layout and verified alignment before final tightening and support placement.",
+    "tags": ["Pipefitting", "Fabrication", "FAB2170"]
+  },
+
+  {
+    "term": "Scope of work",
+    "definition": "A clear description of what the job includes, what it excludes, and what ‘done’ looks like.",
+    "example": "Students wrote a scope of work that specified dimensions, mounting points, finish level, and timeline.",
+    "tags": ["Planning", "Documentation", "Employability", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Specifications",
+    "definition": "Detailed requirements a product or installation must meet (dimensions, materials, tolerances, standards).",
+    "example": "Students checked specifications before cutting stock to ensure correct material size and finish requirements.",
+    "tags": ["Planning", "Documentation", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Field measurement",
+    "definition": "Measuring real-world conditions to confirm fit before fabrication or installation.",
+    "example": "Students measured a mounting location and confirmed clearance before building the component.",
+    "tags": ["Measurement", "Planning", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "As-built conditions",
+    "definition": "The actual real-world state of a site or assembly, which may differ from plans or ideal dimensions.",
+    "example": "Students adjusted their part because as-built conditions showed the mounting surface was not square.",
+    "tags": ["Measurement", "Planning", "Problem Solving", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Tolerance stack-up",
+    "definition": "The combined effect of small measurement and fabrication variations across multiple parts or steps.",
+    "example": "Students used baseline measurements and jigs to reduce tolerance stack-up across repeated parts.",
+    "tags": ["Measurement", "Quality", "Production", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Fabrication drawing",
+    "definition": "A working drawing used to build a part, including dimensions, materials, and assembly details.",
+    "example": "Students created a fabrication drawing to communicate cut lengths and hole locations to another group.",
+    "tags": ["Documentation", "Print Reading", "Planning", "FAB2160", "FAB3160"]
+  },
+  {
+    "term": "Cut list (installation)",
+    "definition": "A list of components to cut, including lengths, quantities, and identification labels for assembly or install.",
+    "example": "Students produced a cut list and labelled each part so the install sequence was clear.",
+    "tags": ["Documentation", "Planning", "Production", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Material takeoff",
+    "definition": "Estimating and listing materials and quantities needed based on drawings or measurements.",
+    "example": "Students completed a material takeoff for pipe, fittings, fasteners, and supports before starting work.",
+    "tags": ["Planning", "Documentation", "Production", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Part identification (marking)",
+    "definition": "Labelling parts so they can be tracked, assembled correctly, and matched to documentation.",
+    "example": "Students marked each piece with an ID that matched the cut list and assembly plan.",
+    "tags": ["Documentation", "Production", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Fit-up (assembly)",
+    "definition": "Aligning and holding parts so they match the intended design before fastening or welding.",
+    "example": "Students used clamps and squares to fit up a frame so diagonals matched before final assembly.",
+    "tags": ["Fabrication", "Quality", "Tools", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Fixture strategy",
+    "definition": "Planning how parts will be held and referenced to maintain alignment and repeatability.",
+    "example": "Students built a simple fixture so multiple assemblies stayed square during fabrication.",
+    "tags": ["Fabrication", "Production", "Quality", "Tools", "FAB2160", "FAB3160"]
+  },
+  {
+    "term": "Assembly sequence",
+    "definition": "The planned order of steps used to build or install components to avoid interference and reduce rework.",
+    "example": "Students assembled sub-components first, then installed the full unit to reduce awkward fastening.",
+    "tags": ["Planning", "Production", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Interference (installation)",
+    "definition": "A conflict where parts collide or cannot be installed due to clearance or geometry issues.",
+    "example": "Students changed the order of installation when a support bracket blocked access to a fastener.",
+    "tags": ["Planning", "Problem Solving", "Quality", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Alignment",
+    "definition": "Positioning parts so they are straight, square, and correctly oriented to their reference points.",
+    "example": "Students used a level and square to align the assembly before final tightening.",
+    "tags": ["Measurement", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Level",
+    "definition": "A condition where a surface is horizontal relative to gravity, commonly checked during installation.",
+    "example": "Students checked a support rail with a level before fastening it permanently.",
+    "tags": ["Measurement", "Tools", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Plumb",
+    "definition": "A condition where a surface is vertical relative to gravity.",
+    "example": "Students verified the post was plumb before tightening anchors and braces.",
+    "tags": ["Measurement", "Tools", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Square (installation)",
+    "definition": "A condition where two lines or surfaces meet at 90 degrees; critical for frames and layouts.",
+    "example": "Students measured diagonals to confirm a rectangular assembly was square before securing it.",
+    "tags": ["Measurement", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Support",
+    "definition": "A component that holds, braces, or carries load for an assembly or piping system.",
+    "example": "Students installed supports to prevent pipe sag and reduce stress on fittings.",
+    "tags": ["Structures", "Pipefitting", "Installation", "FAB2170"]
+  },
+  {
+    "term": "Anchor",
+    "definition": "A fastener or device used to secure an assembly to a structure such as concrete or wood.",
+    "example": "Students selected anchors appropriate for the mounting surface and required load.",
+    "tags": ["Fasteners", "Installation", "Safety", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Fastener access",
+    "definition": "Planning clear space so tools can reach fasteners for assembly, inspection, and maintenance.",
+    "example": "Students positioned a bracket so fasteners could be tightened and later serviced without disassembly.",
+    "tags": ["Planning", "Design", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Pipe schedule",
+    "definition": "A standard that indicates pipe wall thickness for a given nominal size (affects strength and weight).",
+    "example": "Students verified pipe schedule so fittings and supports matched the required rating.",
+    "tags": ["Pipefitting", "Materials", "Measurement", "FAB2170"]
+  },
+  {
+    "term": "Nominal pipe size (NPS)",
+    "definition": "A standardized pipe size naming system that does not equal the exact measured outside diameter.",
+    "example": "Students used NPS to select matching fittings rather than relying on measured diameter alone.",
+    "tags": ["Pipefitting", "Measurement", "FAB2170"]
+  },
+  {
+    "term": "Fitting",
+    "definition": "A component used to connect, change direction, branch, or transition pipe size/type.",
+    "example": "Students used elbows and tees to build a layout that met the required route.",
+    "tags": ["Pipefitting", "Materials", "FAB2170"]
+  },
+  {
+    "term": "Elbow",
+    "definition": "A pipe fitting that changes direction, commonly 45° or 90°.",
+    "example": "Students used a 90° elbow to route pipe around an obstruction while maintaining clearance.",
+    "tags": ["Pipefitting", "FAB2170"]
+  },
+  {
+    "term": "Tee",
+    "definition": "A fitting that creates a branch connection from a main pipe run.",
+    "example": "Students installed a tee to add a branch line while keeping the main line aligned.",
+    "tags": ["Pipefitting", "FAB2170"]
+  },
+  {
+    "term": "Reducer",
+    "definition": "A fitting used to connect two different pipe sizes.",
+    "example": "Students installed a reducer to transition from the main line to a smaller branch line.",
+    "tags": ["Pipefitting", "FAB2170"]
+  },
+
+  {
+    "term": "Pipe layout",
+    "definition": "Planning a piping route and components to meet function, clearance, and support requirements.",
+    "example": "Students planned pipe layout to avoid interference with other components and allow maintenance access.",
+    "tags": ["Pipefitting", "Planning", "FAB2170"]
+  },
+  {
+    "term": "Take-up (pipefitting)",
+    "definition": "The amount of length consumed by fittings and threads/weld prep that must be accounted for in cut lengths.",
+    "example": "Students adjusted cut lengths to account for take-up so final overall length matched the drawing.",
+    "tags": ["Pipefitting", "Measurement", "Quality", "FAB2170"]
+  },
+  {
+    "term": "Cut-to-fit",
+    "definition": "Cutting components based on real measurements and fitting conditions rather than relying only on nominal lengths.",
+    "example": "Students cut-to-fit the final section after confirming the actual installed distance on site.",
+    "tags": ["Pipefitting", "Fabrication", "Measurement", "FAB2170"]
+  },
+
+  {
+    "term": "Quality check (installation)",
+    "definition": "Verifying dimensions, alignment, support, and workmanship before sign-off or use.",
+    "example": "Students performed a quality check: level, plumb, alignment, fastener tightness, and safe edges.",
+    "tags": ["Quality", "Inspection", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Rework",
+    "definition": "Correcting work that does not meet requirements, often due to measurement, fit-up, or sequence errors.",
+    "example": "A misaligned bracket required rework: loosening, repositioning, and re-fastening to specification.",
+    "tags": ["Quality", "Production", "Employability", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Commissioning check",
+    "definition": "A final verification that an installed assembly functions as intended and is safe for use.",
+    "example": "Students confirmed the assembly operated smoothly, was secure, and met clearance requirements.",
+    "tags": ["Quality", "Safety", "Employability", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Safe work zone",
+    "definition": "A controlled area for installation or assembly that reduces risk to people and prevents damage.",
+    "example": "Students set a safe work zone with clear walkways and marked hazards during installation work.",
+    "tags": ["Safety", "Shop Practices", "Employability", "FAB2160", "FAB3160", "FAB2170"]
+  }
+  {
+    "term": "Custom fabrication",
+    "definition": "Building one-off or small-run parts to meet specific requirements, often requiring planning, fit-up, and problem-solving.",
+    "example": "Students produced a custom bracket by measuring the mounting location, drafting a plan, and fabricating to fit.",
+    "tags": ["Fabrication", "Processes", "FAB2160"]
+  },
+  {
+    "term": "Prefabrication",
+    "definition": "Producing components in advance (often in a shop) so they can be assembled efficiently on site or later in a build.",
+    "example": "Students prefabricated identical frame sections to reduce on-site assembly time and improve consistency.",
+    "tags": ["Fabrication", "Production", "FAB3160"]
+  },
+  {
+    "term": "Pipe fitting",
+    "definition": "Planning, measuring, cutting, assembling, and installing piping systems using fittings and alignment methods.",
+    "example": "Students built a simple piping layout and verified alignment before final tightening and support placement.",
+    "tags": ["Pipefitting", "Fabrication", "FAB2170"]
+  },
+
+  {
+    "term": "Scope of work",
+    "definition": "A clear description of what the job includes, what it excludes, and what ‘done’ looks like.",
+    "example": "Students wrote a scope of work that specified dimensions, mounting points, finish level, and timeline.",
+    "tags": ["Planning", "Documentation", "Employability", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Specifications",
+    "definition": "Detailed requirements a product or installation must meet (dimensions, materials, tolerances, standards).",
+    "example": "Students checked specifications before cutting stock to ensure correct material size and finish requirements.",
+    "tags": ["Planning", "Documentation", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Field measurement",
+    "definition": "Measuring real-world conditions to confirm fit before fabrication or installation.",
+    "example": "Students measured a mounting location and confirmed clearance before building the component.",
+    "tags": ["Measurement", "Planning", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "As-built conditions",
+    "definition": "The actual real-world state of a site or assembly, which may differ from plans or ideal dimensions.",
+    "example": "Students adjusted their part because as-built conditions showed the mounting surface was not square.",
+    "tags": ["Measurement", "Planning", "Problem Solving", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Tolerance stack-up",
+    "definition": "The combined effect of small measurement and fabrication variations across multiple parts or steps.",
+    "example": "Students used baseline measurements and jigs to reduce tolerance stack-up across repeated parts.",
+    "tags": ["Measurement", "Quality", "Production", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Fabrication drawing",
+    "definition": "A working drawing used to build a part, including dimensions, materials, and assembly details.",
+    "example": "Students created a fabrication drawing to communicate cut lengths and hole locations to another group.",
+    "tags": ["Documentation", "Print Reading", "Planning", "FAB2160", "FAB3160"]
+  },
+  {
+    "term": "Cut list (installation)",
+    "definition": "A list of components to cut, including lengths, quantities, and identification labels for assembly or install.",
+    "example": "Students produced a cut list and labelled each part so the install sequence was clear.",
+    "tags": ["Documentation", "Planning", "Production", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Material takeoff",
+    "definition": "Estimating and listing materials and quantities needed based on drawings or measurements.",
+    "example": "Students completed a material takeoff for pipe, fittings, fasteners, and supports before starting work.",
+    "tags": ["Planning", "Documentation", "Production", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Part identification (marking)",
+    "definition": "Labelling parts so they can be tracked, assembled correctly, and matched to documentation.",
+    "example": "Students marked each piece with an ID that matched the cut list and assembly plan.",
+    "tags": ["Documentation", "Production", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Fit-up (assembly)",
+    "definition": "Aligning and holding parts so they match the intended design before fastening or welding.",
+    "example": "Students used clamps and squares to fit up a frame so diagonals matched before final assembly.",
+    "tags": ["Fabrication", "Quality", "Tools", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Fixture strategy",
+    "definition": "Planning how parts will be held and referenced to maintain alignment and repeatability.",
+    "example": "Students built a simple fixture so multiple assemblies stayed square during fabrication.",
+    "tags": ["Fabrication", "Production", "Quality", "Tools", "FAB2160", "FAB3160"]
+  },
+  {
+    "term": "Assembly sequence",
+    "definition": "The planned order of steps used to build or install components to avoid interference and reduce rework.",
+    "example": "Students assembled sub-components first, then installed the full unit to reduce awkward fastening.",
+    "tags": ["Planning", "Production", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Interference (installation)",
+    "definition": "A conflict where parts collide or cannot be installed due to clearance or geometry issues.",
+    "example": "Students changed the order of installation when a support bracket blocked access to a fastener.",
+    "tags": ["Planning", "Problem Solving", "Quality", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Alignment",
+    "definition": "Positioning parts so they are straight, square, and correctly oriented to their reference points.",
+    "example": "Students used a level and square to align the assembly before final tightening.",
+    "tags": ["Measurement", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Level",
+    "definition": "A condition where a surface is horizontal relative to gravity, commonly checked during installation.",
+    "example": "Students checked a support rail with a level before fastening it permanently.",
+    "tags": ["Measurement", "Tools", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Plumb",
+    "definition": "A condition where a surface is vertical relative to gravity.",
+    "example": "Students verified the post was plumb before tightening anchors and braces.",
+    "tags": ["Measurement", "Tools", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Square (installation)",
+    "definition": "A condition where two lines or surfaces meet at 90 degrees; critical for frames and layouts.",
+    "example": "Students measured diagonals to confirm a rectangular assembly was square before securing it.",
+    "tags": ["Measurement", "Quality", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Support",
+    "definition": "A component that holds, braces, or carries load for an assembly or piping system.",
+    "example": "Students installed supports to prevent pipe sag and reduce stress on fittings.",
+    "tags": ["Structures", "Pipefitting", "Installation", "FAB2170"]
+  },
+  {
+    "term": "Anchor",
+    "definition": "A fastener or device used to secure an assembly to a structure such as concrete or wood.",
+    "example": "Students selected anchors appropriate for the mounting surface and required load.",
+    "tags": ["Fasteners", "Installation", "Safety", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Fastener access",
+    "definition": "Planning clear space so tools can reach fasteners for assembly, inspection, and maintenance.",
+    "example": "Students positioned a bracket so fasteners could be tightened and later serviced without disassembly.",
+    "tags": ["Planning", "Design", "FAB2160", "FAB3160", "FAB2170"]
+  },
+
+  {
+    "term": "Pipe schedule",
+    "definition": "A standard that indicates pipe wall thickness for a given nominal size (affects strength and weight).",
+    "example": "Students verified pipe schedule so fittings and supports matched the required rating.",
+    "tags": ["Pipefitting", "Materials", "Measurement", "FAB2170"]
+  },
+  {
+    "term": "Nominal pipe size (NPS)",
+    "definition": "A standardized pipe size naming system that does not equal the exact measured outside diameter.",
+    "example": "Students used NPS to select matching fittings rather than relying on measured diameter alone.",
+    "tags": ["Pipefitting", "Measurement", "FAB2170"]
+  },
+  {
+    "term": "Fitting",
+    "definition": "A component used to connect, change direction, branch, or transition pipe size/type.",
+    "example": "Students used elbows and tees to build a layout that met the required route.",
+    "tags": ["Pipefitting", "Materials", "FAB2170"]
+  },
+  {
+    "term": "Elbow",
+    "definition": "A pipe fitting that changes direction, commonly 45° or 90°.",
+    "example": "Students used a 90° elbow to route pipe around an obstruction while maintaining clearance.",
+    "tags": ["Pipefitting", "FAB2170"]
+  },
+  {
+    "term": "Tee",
+    "definition": "A fitting that creates a branch connection from a main pipe run.",
+    "example": "Students installed a tee to add a branch line while keeping the main line aligned.",
+    "tags": ["Pipefitting", "FAB2170"]
+  },
+  {
+    "term": "Reducer",
+    "definition": "A fitting used to connect two different pipe sizes.",
+    "example": "Students installed a reducer to transition from the main line to a smaller branch line.",
+    "tags": ["Pipefitting", "FAB2170"]
+  },
+
+  {
+    "term": "Pipe layout",
+    "definition": "Planning a piping route and components to meet function, clearance, and support requirements.",
+    "example": "Students planned pipe layout to avoid interference with other components and allow maintenance access.",
+    "tags": ["Pipefitting", "Planning", "FAB2170"]
+  },
+  {
+    "term": "Take-up (pipefitting)",
+    "definition": "The amount of length consumed by fittings and threads/weld prep that must be accounted for in cut lengths.",
+    "example": "Students adjusted cut lengths to account for take-up so final overall length matched the drawing.",
+    "tags": ["Pipefitting", "Measurement", "Quality", "FAB2170"]
+  },
+  {
+    "term": "Cut-to-fit",
+    "definition": "Cutting components based on real measurements and fitting conditions rather than relying only on nominal lengths.",
+    "example": "Students cut-to-fit the final section after confirming the actual installed distance on site.",
+    "tags": ["Pipefitting", "Fabrication", "Measurement", "FAB2170"]
+  },
+
+  {
+    "term": "Quality check (installation)",
+    "definition": "Verifying dimensions, alignment, support, and workmanship before sign-off or use.",
+    "example": "Students performed a quality check: level, plumb, alignment, fastener tightness, and safe edges.",
+    "tags": ["Quality", "Inspection", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Rework",
+    "definition": "Correcting work that does not meet requirements, often due to measurement, fit-up, or sequence errors.",
+    "example": "A misaligned bracket required rework: loosening, repositioning, and re-fastening to specification.",
+    "tags": ["Quality", "Production", "Employability", "FAB2160", "FAB3160", "FAB2170"]
+  },
+  {
+    "term": "Commissioning check",
+    "definition": "A final verification that an installed assembly functions as intended and is safe for use.",
+    "example": "Students confirmed the assembly operated smoothly, was secure, and met clearance requirements.",
+    "tags": ["Quality", "Safety", "Employability", "FAB2160", "FAB2170"]
+  },
+  {
+    "term": "Safe work zone",
+    "definition": "A controlled area for installation or assembly that reduces risk to people and prevents damage.",
+    "example": "Students set a safe work zone with clear walkways and marked hazards during installation work.",
+    "tags": ["Safety", "Shop Practices", "Employability", "FAB2160", "FAB3160", "FAB2170"]
   }
 ]
