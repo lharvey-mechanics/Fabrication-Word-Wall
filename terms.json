@@ -1,0 +1,432 @@
+[
+  {
+    "term": "Hazard identification",
+    "definition": "Finding anything in the shop that could cause harm (equipment, process, material, environment, behaviour).",
+    "example": "Before welding, the group identified trip hazards, hot surfaces, and pinch points around the work area.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1910"]
+  },
+  {
+    "term": "Risk assessment",
+    "definition": "Judging how likely a hazard is to cause harm and how severe the harm could be.",
+    "example": "Grinding without a face shield was rated high risk due to likely eye/face injury.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Hierarchy of controls",
+    "definition": "A safety approach that prioritizes eliminating hazards first, then engineering controls, administrative controls, and PPE last.",
+    "example": "Instead of relying only on PPE, the class used welding screens and ventilation to reduce exposure.",
+    "tags": ["Safety", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Personal protective equipment (PPE)",
+    "definition": "Protective gear worn to reduce exposure to hazards.",
+    "example": "Students wore safety glasses, hearing protection, and gloves when cutting and grinding.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "WHMIS",
+    "definition": "Canada’s hazard communication system for workplace chemicals (labels, pictograms, SDS, training).",
+    "example": "Students checked the SDS for aerosol cleaner before using it on parts.",
+    "tags": ["Safety", "Chemicals", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Safety Data Sheet (SDS)",
+    "definition": "A document that explains a product’s hazards, safe handling, storage, PPE, and first aid.",
+    "example": "The SDS indicated the cleaner required ventilation and nitrile gloves.",
+    "tags": ["Safety", "Chemicals", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Lockout/Tagout (LOTO)",
+    "definition": "A procedure to isolate energy sources so equipment cannot start during service or adjustment.",
+    "example": "Before changing a cutting wheel on a powered saw, the tool was unplugged and checked for zero energy.",
+    "tags": ["Safety", "Power Tools", "FAB1100", "FAB1910", "FAB2910"]
+  },
+  {
+    "term": "Hot work",
+    "definition": "Work that produces heat, sparks, or flames (welding, cutting, grinding).",
+    "example": "A hot-work check included clearing flammables and confirming a fire extinguisher was present.",
+    "tags": ["Safety", "Welding", "Cutting", "FAB1100", "FAB1110", "FAB1120", "FAB1130"]
+  },
+  {
+    "term": "Fire watch",
+    "definition": "Monitoring an area during and after hot work to catch smouldering fires early.",
+    "example": "After grinding, the group stayed 30 minutes to ensure no sparks ignited debris under the table.",
+    "tags": ["Safety", "Welding", "Cutting", "FAB1100", "FAB1910"]
+  },
+  {
+    "term": "Ventilation",
+    "definition": "Moving and removing contaminated air to reduce fume and dust exposure.",
+    "example": "Local extraction was used while welding to reduce fume in the breathing zone.",
+    "tags": ["Safety", "Shop Systems", "FAB1010", "FAB1100", "FAB1130"]
+  },
+
+  {
+    "term": "Ferrous metal",
+    "definition": "Metal that contains iron (often magnetic), such as steel.",
+    "example": "Mild steel plate was identified as ferrous because it attracted a magnet.",
+    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB2010"]
+  },
+  {
+    "term": "Non-ferrous metal",
+    "definition": "Metal with little or no iron, such as aluminum or copper.",
+    "example": "Aluminum did not attract a magnet and required different welding settings than steel.",
+    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB2030"]
+  },
+  {
+    "term": "Alloy",
+    "definition": "A mixture of metals (or metal and non-metal) designed to improve properties.",
+    "example": "Stainless steel is an alloy designed for corrosion resistance.",
+    "tags": ["Materials", "Metals", "FAB1100", "FAB3010"]
+  },
+  {
+    "term": "Mild steel",
+    "definition": "Low-carbon steel that is easy to form and weld.",
+    "example": "Students used 3/16-inch mild steel for practice joints because it is forgiving for beginners.",
+    "tags": ["Materials", "Metals", "FAB1010", "FAB1100", "FAB1110", "FAB1120"]
+  },
+  {
+    "term": "Heat-affected zone (HAZ)",
+    "definition": "The area of base metal changed by welding heat but not melted.",
+    "example": "Overheating widened the HAZ and increased distortion on thin material.",
+    "tags": ["Welding", "Materials", "FAB1120", "FAB2120", "FAB3010"]
+  },
+  {
+    "term": "Distortion",
+    "definition": "Unwanted bending or warping caused by uneven heating and cooling.",
+    "example": "Stitch welding and alternating sides helped reduce distortion on a frame.",
+    "tags": ["Welding", "Fabrication", "FAB1120", "FAB2120", "FAB2130"]
+  },
+
+  {
+    "term": "Measuring tape",
+    "definition": "A flexible measuring tool used for layout and cutting dimensions.",
+    "example": "The cut list required verifying length twice before cutting stock.",
+    "tags": ["Measurement", "Hand Tools", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Steel rule",
+    "definition": "A rigid, accurate measuring tool used for short measurements and layout lines.",
+    "example": "A steel rule was used to set the offset for a scribe line along an edge.",
+    "tags": ["Measurement", "Hand Tools", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Calipers",
+    "definition": "A measuring tool used to measure inside, outside, and depth dimensions.",
+    "example": "Calipers confirmed a drilled hole size before fitting a bolt.",
+    "tags": ["Measurement", "Quality", "FAB1100", "FAB2100", "FAB3010"]
+  },
+  {
+    "term": "Tolerance",
+    "definition": "The allowable variation from a target dimension.",
+    "example": "A hole specified at 10.00 mm ±0.10 mm must measure between 9.90 mm and 10.10 mm.",
+    "tags": ["Measurement", "Quality", "Print Reading", "FAB1100", "FAB2100", "FAB3010"]
+  },
+  {
+    "term": "Datum",
+    "definition": "A reference surface, edge, or point used to measure or locate features.",
+    "example": "All hole locations were measured from the same datum edge to avoid compounding error.",
+    "tags": ["Measurement", "Print Reading", "FAB1100", "FAB2100"]
+  },
+  {
+    "term": "Layout",
+    "definition": "Marking material to guide cutting, drilling, bending, or assembly.",
+    "example": "Students used a combination square and scribe to lay out a 25 mm offset line.",
+    "tags": ["Measurement", "Fabrication", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Scribe",
+    "definition": "A sharp tool used to scratch fine layout lines on metal.",
+    "example": "A scribe line stayed visible after cutting fluid was applied.",
+    "tags": ["Measurement", "Hand Tools", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Centre punch",
+    "definition": "A tool used to make a small indentation to guide drilling.",
+    "example": "A centre punch prevented the drill bit from wandering on a round surface.",
+    "tags": ["Hand Tools", "Machining", "FAB1010", "FAB1100"]
+  },
+
+  {
+    "term": "Blueprint",
+    "definition": "A technical drawing that communicates design intent, dimensions, and specifications.",
+    "example": "Students used the drawing to create a cut list and a bill of materials.",
+    "tags": ["Print Reading", "Documentation", "FAB1100", "FAB2100", "FAB2140"]
+  },
+  {
+    "term": "Orthographic projection",
+    "definition": "A drawing method showing multiple views (front/top/side) to represent a 3D object.",
+    "example": "The top view clarified hole spacing that was not obvious in the front view.",
+    "tags": ["Print Reading", "FAB1100", "FAB2100"]
+  },
+  {
+    "term": "Isometric drawing",
+    "definition": "A 3D-looking drawing style that shows length, width, and height in one view.",
+    "example": "An isometric helped the group visualise assembly order.",
+    "tags": ["Print Reading", "Design", "FAB1100", "FAB2100", "FAB3140"]
+  },
+  {
+    "term": "Bill of materials (BOM)",
+    "definition": "A list of required materials, quantities, and specifications needed to build a project.",
+    "example": "The BOM listed plate thickness, tubing size, and fasteners before purchasing.",
+    "tags": ["Documentation", "Planning", "FAB1100", "FAB2100", "FAB2140"]
+  },
+  {
+    "term": "Cut list",
+    "definition": "A list of stock pieces to cut, including dimensions and quantities.",
+    "example": "The cut list reduced waste because cuts were planned around stock lengths.",
+    "tags": ["Planning", "Fabrication", "FAB1100", "FAB2100"]
+  },
+  {
+    "term": "Revision control",
+    "definition": "Tracking changes to a drawing or plan so everyone uses the correct version.",
+    "example": "The group checked the revision letter before starting the final weld-up.",
+    "tags": ["Documentation", "Quality", "FAB2100", "FAB3140"]
+  },
+
+  {
+    "term": "Joint design",
+    "definition": "How two pieces are arranged to be welded or fastened (lap, butt, tee, corner).",
+    "example": "A tee joint was selected for the bracket because it carried load in shear and bending.",
+    "tags": ["Welding", "Design", "FAB1100", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Fit-up",
+    "definition": "How parts are aligned and held together before welding.",
+    "example": "Tight fit-up reduced gaps and made it easier to control the weld puddle.",
+    "tags": ["Welding", "Fabrication", "FAB1120", "FAB2120", "FAB2130"]
+  },
+  {
+    "term": "Tack weld",
+    "definition": "A small weld used to hold parts in position before final welding.",
+    "example": "Four tack welds were placed to prevent shifting during full passes.",
+    "tags": ["Welding", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Weld bead",
+    "definition": "The line of deposited weld metal created by a welding pass.",
+    "example": "A consistent bead width showed steady travel speed and torch angle.",
+    "tags": ["Welding", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Penetration",
+    "definition": "How deeply the weld fuses into the base metal.",
+    "example": "Low penetration can fail under load even if the bead looks smooth.",
+    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
+  },
+  {
+    "term": "Fusion",
+    "definition": "Proper melting and joining of the weld metal to the base metal.",
+    "example": "Cold lap is poor fusion caused by low heat or incorrect technique.",
+    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
+  },
+  {
+    "term": "Fillet weld",
+    "definition": "A triangular-shaped weld used in tee, lap, and corner joints.",
+    "example": "The drawing called for a 6 mm fillet weld along the inside corner.",
+    "tags": ["Welding", "Print Reading", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Welding symbol",
+    "definition": "A standardized symbol on a drawing indicating weld type, size, location, and finish.",
+    "example": "The symbol specified a fillet weld on the arrow side with a specific leg size.",
+    "tags": ["Welding", "Print Reading", "FAB1100", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "GMAW (MIG)",
+    "definition": "Gas Metal Arc Welding: a wire-feed welding process using shielding gas.",
+    "example": "Students used 0.030-inch wire and 75/25 shielding gas for mild steel practice.",
+    "tags": ["Welding", "Processes", "FAB1120", "FAB2120", "FAB2130"]
+  },
+  {
+    "term": "FCAW",
+    "definition": "Flux-Cored Arc Welding: wire-feed welding using flux core, sometimes with shielding gas.",
+    "example": "FCAW was used for outdoor work where wind can disrupt shielding gas coverage.",
+    "tags": ["Welding", "Processes", "FAB1120", "FAB2120", "FAB2130"]
+  },
+  {
+    "term": "Shielding gas",
+    "definition": "Gas that protects the weld puddle from oxygen and nitrogen in the air.",
+    "example": "75/25 argon/CO₂ improved arc stability and reduced spatter on mild steel.",
+    "tags": ["Welding", "Processes", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Spatter",
+    "definition": "Small droplets of molten metal that scatter during welding.",
+    "example": "Correct voltage and stickout reduced spatter and cleanup time.",
+    "tags": ["Welding", "Quality", "FAB1120", "FAB2120"]
+  },
+  {
+    "term": "Porosity",
+    "definition": "Small holes in a weld caused by trapped gas or contamination.",
+    "example": "Porosity increased when the base metal had oil, rust, or paint.",
+    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
+  },
+  {
+    "term": "Undercut",
+    "definition": "A groove melted into the base metal along the weld toe that is not filled with weld metal.",
+    "example": "Too much heat or travel speed caused undercut on the top edge of the fillet weld.",
+    "tags": ["Welding", "Quality", "FAB1120", "FAB2120", "FAB3010"]
+  },
+
+  {
+    "term": "Cutting",
+    "definition": "Separating material to size using hand tools or powered tools.",
+    "example": "Stock was rough-cut before final trimming and deburring.",
+    "tags": ["Fabrication", "Cutting", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Kerf",
+    "definition": "The width of material removed by a cutting process.",
+    "example": "The cut list accounted for kerf so the final length was accurate.",
+    "tags": ["Cutting", "Measurement", "FAB1100", "FAB2100"]
+  },
+  {
+    "term": "Deburring",
+    "definition": "Removing sharp edges and burrs after cutting, drilling, or machining.",
+    "example": "A deburring tool was used so parts were safe to handle and fit correctly.",
+    "tags": ["Quality", "Hand Tools", "FAB1010", "FAB1100"]
+  },
+  {
+    "term": "Abrasive wheel",
+    "definition": "A rotating disc used to grind, cut, or clean metal.",
+    "example": "The correct wheel type was selected for steel to avoid wheel failure.",
+    "tags": ["Cutting", "Grinding", "Power Tools", "FAB1100", "FAB1910"]
+  },
+  {
+    "term": "Angle grinder",
+    "definition": "A handheld power tool that uses discs for grinding, cutting, and finishing.",
+    "example": "The grinder was used to bevel edges for better weld penetration.",
+    "tags": ["Power Tools", "Grinding", "FAB1100", "FAB1910"]
+  },
+  {
+    "term": "Bevel",
+    "definition": "An angled edge preparation often used before welding thicker material.",
+    "example": "A bevel was ground on 3/16-inch plate to improve root fusion.",
+    "tags": ["Welding", "Fabrication", "FAB1100", "FAB1120", "FAB2120"]
+  },
+
+  {
+    "term": "Forces",
+    "definition": "Pushes or pulls that act on objects and structures.",
+    "example": "A bracket experiences both tension and bending under load.",
+    "tags": ["Structures", "Physics", "FAB2010", "FAB3010"]
+  },
+  {
+    "term": "Tension",
+    "definition": "A force that stretches a material.",
+    "example": "A lifting strap is mainly loaded in tension.",
+    "tags": ["Structures", "FAB2010", "FAB3010"]
+  },
+  {
+    "term": "Compression",
+    "definition": "A force that squeezes a material.",
+    "example": "A column in a frame carries compression from the load above.",
+    "tags": ["Structures", "FAB2010", "FAB3010"]
+  },
+  {
+    "term": "Shear",
+    "definition": "A force that causes parts of a material to slide past each other.",
+    "example": "Bolts in a lap joint often carry shear forces.",
+    "tags": ["Structures", "Fasteners", "FAB2010", "FAB3010"]
+  },
+  {
+    "term": "Bending moment",
+    "definition": "A turning effect that causes a member to bend.",
+    "example": "A longer lever arm increases bending moment on the mount.",
+    "tags": ["Structures", "FAB2010", "FAB3010"]
+  },
+  {
+    "term": "Factor of safety",
+    "definition": "A design margin that makes a structure stronger than the expected maximum load.",
+    "example": "The project used a factor of safety to account for unknowns and wear over time.",
+    "tags": ["Design", "Structures", "FAB2010", "FAB2140", "FAB3140"]
+  },
+
+  {
+    "term": "Fastener",
+    "definition": "A mechanical device used to join parts (bolts, screws, rivets).",
+    "example": "Fasteners were chosen where the assembly may need to be disassembled later.",
+    "tags": ["Fasteners", "Fabrication", "FAB1100", "FAB2050", "FAB3050"]
+  },
+  {
+    "term": "Torque",
+    "definition": "A twisting force used to tighten fasteners to a specification.",
+    "example": "Bolts were tightened in stages to the specified torque to prevent distortion.",
+    "tags": ["Fasteners", "Quality", "FAB2050", "FAB3050"]
+  },
+  {
+    "term": "Thread pitch",
+    "definition": "The distance between threads on a fastener (or threads per inch in imperial).",
+    "example": "The nut would not start because the thread pitch did not match the bolt.",
+    "tags": ["Fasteners", "Measurement", "FAB2050", "FAB3050"]
+  },
+
+  {
+    "term": "Destructive testing",
+    "definition": "Testing that damages or breaks a sample to evaluate performance.",
+    "example": "A bend test was used on a weld coupon to check for cracking and lack of fusion.",
+    "tags": ["Testing", "Quality", "FAB3010", "FAB3020"]
+  },
+  {
+    "term": "Non-destructive testing (NDT)",
+    "definition": "Testing that evaluates a part without damaging it.",
+    "example": "A visual inspection and dye penetrant check were used to find surface cracks.",
+    "tags": ["Testing", "Quality", "FAB3010", "FAB3020"]
+  },
+  {
+    "term": "Visual inspection",
+    "definition": "Checking a part or weld with the eyes (often with gauges) for defects and standards.",
+    "example": "The weld was inspected for undercut, porosity, and consistent bead shape.",
+    "tags": ["Testing", "Quality", "FAB1100", "FAB3010", "FAB3020"]
+  },
+  {
+    "term": "Acceptance criteria",
+    "definition": "The set of requirements a part must meet to be considered acceptable.",
+    "example": "The rubric specified allowable porosity and minimum weld size as acceptance criteria.",
+    "tags": ["Quality", "Documentation", "FAB2100", "FAB3010", "FAB3140"]
+  },
+
+  {
+    "term": "Project planning",
+    "definition": "Organizing tasks, materials, time, and safety steps before starting work.",
+    "example": "Students planned the build sequence: cut, prep, tack, weld, clean, inspect, finish.",
+    "tags": ["Planning", "Employability", "FAB1010", "FAB1100", "FAB2100", "FAB3140"]
+  },
+  {
+    "term": "Work sequence",
+    "definition": "The order of steps used to complete a job safely and efficiently.",
+    "example": "The work sequence placed drilling before welding to keep parts easy to clamp.",
+    "tags": ["Planning", "Shop Practices", "FAB1100", "FAB2100"]
+  },
+  {
+    "term": "Quality assurance (QA)",
+    "definition": "Preventing defects by using standards, checks, and good process control.",
+    "example": "QA included measuring after each step so errors were caught early.",
+    "tags": ["Quality", "Employability", "FAB2100", "FAB3010", "FAB3140"]
+  },
+  {
+    "term": "Quality control (QC)",
+    "definition": "Finding defects by inspecting and testing finished work against requirements.",
+    "example": "QC included checking dimensions and inspecting welds before final sign-off.",
+    "tags": ["Quality", "Employability", "FAB2100", "FAB3010", "FAB3140"]
+  },
+
+  {
+    "term": "Professional conduct",
+    "definition": "Meeting workplace expectations: safety, punctuality, respect, and accountability.",
+    "example": "A student reported a near miss, cleaned the station, and logged the issue appropriately.",
+    "tags": ["Employability", "Safety", "FAB1010", "FAB1910", "FAB2910", "FAB3910"]
+  },
+  {
+    "term": "Tool accountability",
+    "definition": "Tracking tools so they are returned, maintained, and ready for the next user.",
+    "example": "Students checked tools in/out and reported damaged items immediately.",
+    "tags": ["Employability", "Shop Practices", "FAB1010", "FAB1910", "FAB2910"]
+  },
+  {
+    "term": "Housekeeping",
+    "definition": "Keeping a clean, organized, and hazard-free workspace.",
+    "example": "Grinding dust was cleaned up to reduce slip and fire hazards.",
+    "tags": ["Safety", "Shop Practices", "FAB1010", "FAB1100", "FAB1910"]
+  }
+]
