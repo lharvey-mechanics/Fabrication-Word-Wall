@@ -1,1 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fabrication Word Wall</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; max-width: 1100px; }
+    header { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+    h1 { margin: 0; font-size: 28px; }
+    input, select { padding: 10px; font-size: 16px; }
+    .meta { margin-top: 10px; color: #444; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; }
+    .term { font-weight: 700; font-size: 18px; }
+    .tag { font-size: 12px; border: 1px solid #ccc; border-radius: 999px; padding: 2px 8px; margin-left: 8px; display: inline-block; }
+    .row { margin-top: 8px; }
+    .row strong { display: inline-block; width: 90px; }
+    .footer { margin-top: 24px; font-size: 13px; color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fabrication Word Wall</h1>
+    <input id="q" type="search" placeholder="Search terms, definitions, examples…" />
+    <select id="tag">
+      <option value="">All tags</option>
+    </select>
+  </header>
 
+  <div class="meta" id="count"></div>
+  <div class="grid" id="list"></div>
+
+  <div class="footer">
+    Tip: Search matches term, definition, and example. Use the tag filter to narrow by credit or topic.
+  </div>
+
+<script>
+  const q = document.getElementById('q');
+  const tagSel = document.getElementById('tag');
+  const list = document.getElementById('list');
+  const count = document.getElementById('count');
+
+  let terms = [];
+
+  function uniq(arr) { return Array.from(new Set(arr)); }
+
+  function loadTags() {
+    const tags = uniq(terms.flatMap(t => t.tags || [])).sort((a, b) => a.localeCompare(b));
+    tagSel.innerHTML = `<option value="">All tags</option>` +
+      tags.map(t => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join('');
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+  }
+
+  function render() {
+    const query = q.value.trim().toLowerCase();
+    const tag = tagSel.value;
+
+    const filtered = terms.filter(t => {
+      const term = (t.term || '').toLowerCase();
+      const def = (t.definition || '').toLowerCase();
+      const ex = (t.example || '').toLowerCase();
+
+      const matchesQuery = !query || term.includes(query) || def.includes(query) || ex.includes(query);
+      const matchesTag = !tag || (t.tags || []).includes(tag);
+      return matchesQuery && matchesTag;
+    });
+
+    count.textContent = `${filtered.length} term(s)`;
+
+    list.innerHTML = filtered.map(t => {
+      const tags = (t.tags || []).map(x => `<span class="tag">${escapeHtml(x)}</span>`).join('');
+      return `
+        <div class="card">
+          <div class="term">${escapeHtml(t.term || '')}${tags ? ' ' + tags : ''}</div>
+          <div class="row"><strong>Definition:</strong> ${escapeHtml(t.definition || '')}</div>
+          <div class="row"><strong>Example:</strong> ${escapeHtml(t.example || '')}</div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  fetch('./terms.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`Could not load terms.json (HTTP ${r.status})`);
+      return r.json();
+    })
+    .then(data => {
+      if (!Array.isArray(data)) throw new Error('terms.json must be a JSON array');
+      terms = data;
+      loadTags();
+      render();
+    })
+    .catch(err => {
+      count.textContent = 'Error loading terms.json';
+      list.innerHTML = `<div class="card"><strong>${escapeHtml(err.message)}</strong></div>`;
+    });
+
+  q.addEventListener('input', render);
+  tagSel.addEventListener('change', render);
+</script>
+</body>
+</html>
